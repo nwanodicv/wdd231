@@ -1,0 +1,124 @@
+/***************** COLOR SCHEME *************
+Terra cotta: #E07A5F
+Deep Slate Blue: #3D405B
+Hamburger open icon: \2630
+Hamburger closing icon: \00D7
+*/
+
+/***************** Site Wide *************/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/***************** Header Section *************/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 6px;
+}
+
+header Img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1px;
+}
+
+header span {
+    font-size: 0.7rem;
+    color: #3D405B
+}
+
+/***************** HAMBURGER NAVIGATION *************/
+.hamburger {
+    background: none;
+    border: none;
+    color: #3D405B;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: " \2630";
+    font-size: 1.2rem;
+}
+
+.hamburger.show::before {
+    content: " \00D7";
+    font-size: 1.5rem;
+}
+
+/***************** NAVIGATION MENU *************/
+.nav-links {
+    display: none;
+    padding: 5px 0 5px 1px;
+    border-bottom: solid 1px #eee;
+}
+
+.nav-links.show {
+    display: block;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: #3D405B;
+    padding: 0.8rem 10px;
+    border-bottom: solid 1px #ddd;
+    cursor: pointer;
+}
+
+/***************** way finding *************/
+.nav-links li.home-page {
+    background-color: #eee;
+}
+
+.nav-links a:hover {
+    background-color: #E07A5F;
+}
+
+h1 {
+    margin-left: 10px;
+    color: #3D405B;
+}
+
+/***************** FOOTER *************/
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1rem 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #ccc solid 1px;
+    border-radius: 4px;
+}
+
+.social-media img {
+    width: 22px;
+    height: 22px;
+}
+
+.social-media a:hover {
+    background-color: #ddd;
+}
