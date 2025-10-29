@@ -86,10 +86,25 @@ header span {
     background-color: #E07A5F;
 }
 
+/***************** HOME PAGE *************/
+
 h1 {
     margin-left: 10px;
     color: #3D405B;
 }
+
+section {
+    display: block;
+    background-color: #ccc;
+    color:#3D405B;
+    justify-content: center;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+
 
 /***************** FOOTER *************/
 footer {
