@@ -122,3 +122,7 @@ footer {
 .social-media a:hover {
     background-color: #ddd;
 }
+
+footer p {
+    color: #3D405B;
+}
