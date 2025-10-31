@@ -146,10 +146,7 @@ h1 {
     margin-left: 10px;
     margin-bottom: 10px;
     color: #3D405B;
-}
-
-.course-container .wdd {
-    background-color: #aaa;
+    font-weight: bold;
 }
 
 .course {
