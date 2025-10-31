@@ -128,6 +128,16 @@ h1 {
     margin-left: 0;
 }
 
+.main-course {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 1.7rem;
+    column-gap: 8px;
+    width: 5rem;
+    height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
 .course-container .course-btn:hover {
     background-color:  #E07A5F;
 }
@@ -147,6 +157,8 @@ h1 {
     margin-bottom: 8px;
     color: #3D405B;
     text-align: center;
+    background-color: #eeef;
+
 }
 .second-screen img {
     width: 250px;
