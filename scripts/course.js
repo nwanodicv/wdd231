@@ -25,7 +25,11 @@ displayCourses(courses);
  const allCourses = document.querySelector('#all-courses');
  allCourses.addEventListener('click', (event) => {
     event.preventDefault();
-  displayCourses(courses);
+    displayCourses(courses);
+
+    // Here is to get the total number of course
+    const totalCourses = Object.keys(courses[0]).length;
+    document.querySelector('#counter').textContent = `The total number of courses listed below is: ${totalCourses}`;
  });
 
 //*******************Event Listener for CSE button************* */
@@ -40,6 +44,10 @@ cseCourses.addEventListener('click', (event) => {
         cse210: 'CSE210',
     }];
    displayCourses(cseCourses);
+
+   // Here is to get the total number of course
+   const totalCourses = Object.keys(cseCourses[0]).length;
+   document.querySelector('#counter').textContent = `The total number of courses listed below is: ${totalCourses}`;
 });
 
 //*******************Event Listener for WDD button************* */
@@ -54,7 +62,10 @@ wddCourses.addEventListener('click', (event) => {
         wdd231: 'WDD231',
     }];
    displayCourses(wddCourses);
+
+   // Here is to get the total number of course
+   const totalCourses = Object.keys(wddCourses[0]).length;
+   document.querySelector('#counter').textContent = `The total number of courses listed below is: ${totalCourses}`;
 });
-// Here is to get the total number of course
-const totalCourses = Object.keys(courses[0]).length;
-document.querySelector('#counter').textContent = `The total number of courses listed below is: ${totalCourses}`;
+
+
