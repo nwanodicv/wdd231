@@ -77,11 +77,14 @@ header span {
     color: #3D405B;
     padding: 0.8rem 10px;
     border-bottom: solid 1px #ddd;
+    width: 20rem;
+    margin-bottom: 4px;
     cursor: pointer;
 }
 
 .nav-links img {
     margin-left: 10px;
+    padding-top: 10px;
 }
 
 /***************** way finding *************/
@@ -100,12 +103,6 @@ h1 {
     margin-left: 10px;
     color: #3D405B;
 }
-
-/***************** THIRD SCREEN **********/
-.third-screen h2 {
-    margin-left: 0;
-}
-
 
 
 /***************** FOOTER *************/
