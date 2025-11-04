@@ -1,0 +1,278 @@
+/***************** COLOR SCHEME *************
+🌿 Forest Green Deep and elegant: #228B22
+🌲 Dark Green Strong contrast: #006400
+🌱 Medium Green Natural and balanced: #3CB371
+Terra cotta: #E07A5F
+Deep Slate Blue: #3D405B
+Hamburger open icon: \2630
+Hamburger closing icon: \00D7
+*/
+
+/***************** Site Wide *************/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/***************** Header Section *************/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 6px;
+}
+
+header Img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1px;
+}
+
+header span {
+    font-size: 0.7rem;
+    color: #3D405B;
+}
+
+/***************** HAMBURGER NAVIGATION *************/
+.hamburger {
+    background: none;
+    border: none;
+    color: #3D405B;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: " \2630";
+    font-size: 1.2rem;
+}
+
+.hamburger.show::before {
+    content: " \00D7";
+    font-size: 1.5rem;
+}
+
+/***************** NAVIGATION MENU *************/
+.nav-links {
+    display: none;
+    padding: 5px 0 5px 1px;
+    border-bottom: solid 1px #eee;
+}
+
+.nav-links.show {
+    display: block;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: #3D405B;
+    padding: 0.8rem 10px;
+    border-bottom: solid 1px #ddd;
+    width: 20rem;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.nav-links img {
+    margin-left: 10px;
+    padding-top: 16px;
+}
+
+/***************** way finding *************/
+.nav-links li.home-page {
+    background-color: #eee;
+    width: 5rem;
+}
+
+.nav-links a:hover {
+    background-color: #E07A5F;
+}
+
+/***************** HOME PAGE *************/
+
+h1 {
+    margin-left: 10px;
+    color: #3D405B;
+}
+
+/***************** CARDS *************/
+.cards {
+    display: block;
+    margin-left: 8px;
+}
+
+.cards section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 290px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.cards img {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.cards h2 {
+    background-color: #eee;
+    font-size: 1.2rem;
+    color: #3D405B;
+    margin: 10px 0 5px 0;
+}
+
+.cards p {
+    font-size: 0.9rem;
+    color: #3D405B;
+    margin: 0;
+}
+
+
+
+
+
+/***************** FOOTER *************/
+footer {
+    display: grid;
+    row-gap: 30px;
+    background-color: #eee;
+    text-align: center;
+    padding: 1rem 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #ccc solid 1px;
+    border-radius: 4px;
+}
+
+.social-media img {
+    width: 22px;
+    height: 22px;
+}
+
+.social-media a:hover {
+    background-color: #ddd;
+}
+
+footer p {
+    color: #3D405B;
+    font-size: 0.7rem;
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+footer h3 {
+    color: #3D405B;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+footer div {
+    text-align: left;
+}
+
+/***************** LARGE SCREEN STYLES *************/
+@media only screen and (min-width: 38rem) {
+    
+    header, nav, main, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    /***************** HEADER *************/
+    header {
+        grid-template-columns: 24px auto auto;
+    }
+
+    header Img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 18px;
+   }
+
+   header span {
+    font-size: 0.7rem;
+    color: #3D405B;
+    padding-bottom: 18px;
+  }
+
+    /***************** HAMBURGER *************/
+    .hamburger {
+        display: none;
+    }
+
+    /***************** NAVIGATION MENU *************/
+    .nav-links {
+    display: block;
+    border-bottom: none;
+    }
+
+    .nav-links ul {
+        display: flex;
+    }
+
+    .nav-links a {
+        border: none;
+        padding: 14px;
+        width: auto;
+    }
+
+    .nav-links a:hover {
+        background-color: #fff;
+        text-decoration: underline;
+    }
+
+    /*******************WAY FINDING******************/
+    .nav-links li.home-page {
+    background-color: #fff;
+    text-decoration: underline;
+   }
+
+   .nav-links Img {
+    width: 100%;
+    height: auto;
+    padding: 14px;
+}
+
+
+
+    /***************** HOME PAGE *************/
+
+    /***************** CARDS *************/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+  /***************** FOOTER *************/
+  footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}

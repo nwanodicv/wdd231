@@ -1,0 +1,103 @@
+
+{
+    "Organizations":  [ {
+        "name": "Frankbryan leisure and Resort",
+        "address": {
+        "street": "5 opposite timber market",
+        "city": "Ogwashi-Uku",
+        "state": "Delta State",
+        "zip": "320107"
+        },
+        "phone": "+234 803 123 4567",
+        "website": "www.frankbryanleisure.com",
+        "image": "frankbryan.png",
+        "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
+        "services": ["Accommodation", "Event Hosting", "Recreational Activities"]
+    },
+    {
+        "name": "Greenfield Tech Solutions",
+        "address": {
+        "street": "12 Innovation Drive",
+        "city": "Lagos",
+        "state": "Lagos State",
+        "zip": "100001"
+        },
+        "phone": "+234 802 765 4321",
+        "website": "www.greenfieldtech.com",
+        "image": "greenfieldtech.png",
+        "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
+        "services": ["Software Development", "IT Consulting", "Cloud Services"]
+    },
+    {
+        "name": "Sunrise Organic Farms",
+        "address": {
+        "street": "78 Farm Lane",
+        "city": "Ibadan",
+        "state": "Oyo State",
+        "zip": "200002"
+        },
+        "phone": "+234 809 876 5432",
+        "website": "www.sunriseorganic.com",
+        "image": "sunriseorganic.png",
+        "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
+        "services": ["Organic Produce", "Farm Tours", "Workshops"]
+    },
+    {
+        "name": "BlueWave Marketing Agency",
+        "address": {
+        "street": "34 Market Street",
+        "city": "Port Harcourt",
+        "state": "Rivers State",
+        "zip": "500003"
+        },
+        "phone": "+234 807 654 3210",
+        "website": "www.bluewavemarketing.com",
+        "image": "bluewavemarketing.png",
+        "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
+        "services": ["Digital Marketing", "Brand Strategy", "Content Creation"]
+    },
+    {
+        "name": "Harmony Wellness Center",
+        "address": {
+        "street": "90 Health Blvd",
+        "city": "Enugu",
+        "state": "Enugu State",
+        "zip": "400004"
+        },
+        "phone": "+234 806 543 2109",
+        "website": "www.harmonywellness.com",
+        "image": "harmonywellness.png",
+        "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
+        "services": ["Spa Services", "Yoga Classes", "Nutrition Counseling"]
+    },
+    {
+        "name": "Apex Financial Advisors",
+        "address": {
+        "street": "56 Finance Avenue",
+        "city": "Abuja",
+        "state": "Federal Capital Territory",
+        "zip": "900005"
+        },
+        "phone": "+234 805 432 1098",
+        "website": "www.apexfinancial.com",
+        "image": "apexfinancial.png",
+        "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
+        "services": ["Financial Planning", "Investment Management", "Retirement Solutions"]
+    },
+    {
+        "name": "Culinary Delights Catering",
+        "address": {
+        "street": "23 Gourmet Road",
+        "city": "Kano",
+        "state": "Kano State",
+        "zip": "700006"
+        },
+        "phone": "+234 804 321 0987",
+        "website": "www.culinarydelights.com",
+        "image": "culinarydelights.png",
+        "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
+        "services": ["Event Catering", "Menu Planning", "Private Chef Services"]
+    } 
+]
+
+}
