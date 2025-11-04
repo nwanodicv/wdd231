@@ -18,6 +18,7 @@
       <script src="scripts/navigation.js" defer></script>
       <script src="scripts/date.js" defer></script>
       <script src="scripts/course.js" defer></script>
+      <script src="scripts/directory.js" defer></script>
   
     <!-- Font Awesome (icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -56,13 +57,14 @@
     </header>
     <main>
         <h1>Home</h1>
-        <!-----------------SECTION ONE-------------->
-        
-        <!------------------SECTION SECTION----------------------->
-        <section>
-            
-        </section>
-        <!-------------------THIRD SECTION----------------------->
+        <section class="directory-section">
+            <div class="view-modes">
+                <button id="grid-view-btn" class="view-btn">Grid View</button>
+                <button id="list-view-btn" class="view-btn">List View</button>
+            </div>
+            <div id="members-container" class="members-grid">
+                <!-- Member cards will be dynamically inserted here -->
+            </div>
        
     </main>
     <footer>
