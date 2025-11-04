@@ -10,7 +10,7 @@
         },
         "phone": "+234 803 123 4567",
         "website": "www.frankbryanleisure.com",
-        "image": "https://www.google.com/imgres?q=frankbryan%20image&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100077844145488&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Ffrankbryanleisureresort%2F&docid=-eXJ2DA-HAodCM&tbnid=FweNn1kysrFwGM&vet=12ahUKEwiQnuXq3teQAxXhx8kDHUzRGpUQM3oECDsQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwiQnuXq3teQAxXhx8kDHUzRGpUQM3oECDsQAA",
+        "image": "images/frankbryan.jfif",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Accommodation", "Event Hosting", "Recreational Activities"]
     },
@@ -24,7 +24,7 @@
         },
         "phone": "+234 802 765 4321",
         "website": "www.greenfieldtech.com",
-        "image": "https://www.google.com/imgres?q=Greenfield%20Tech%20Solutions%20images&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100088498120972&imgrefurl=https%3A%2F%2Fwww.facebook.com%2F100088498120972%2F&docid=JvV02IbbUtWHIM&tbnid=3_FXHpLXJGs_UM&vet=12ahUKEwjT-tSW39eQAxXA6ckDHUcCIi4QM3oECF0QAA..i&w=500&h=500&hcb=2&itg=1&ved=2ahUKEwjT-tSW39eQAxXA6ckDHUcCIi4QM3oECF0QAA",
+        "image": "images/greenfield.jfif",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Software Development", "IT Consulting", "Cloud Services"]
     },
@@ -38,7 +38,7 @@
         },
         "phone": "+234 809 876 5432",
         "website": "www.sunriseorganic.com",
-        "image": "https://www.google.com/imgres?q=Sunrise%20Organic%20Farms%20images&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100064536768571&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FSunriseorganicfarm%2F&docid=CMsl6_hCVtmCuM&tbnid=mga-kqmEl4obmM&vet=12ahUKEwjC1Pff39eQAxU45ckDHczYG1AQM3oECCEQAA..i&w=438&h=438&hcb=2&ved=2ahUKEwjC1Pff39eQAxU45ckDHczYG1AQM3oECCEQAA",
+        "image": "images/sunrise.jfif",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Organic Produce", "Farm Tours", "Workshops"]
     },
@@ -52,7 +52,7 @@
         },
         "phone": "+234 807 654 3210",
         "website": "www.bluewavemarketing.com",
-        "image": "https://www.google.com/imgres?q=BlueWave%20Marketing%20Agency%20images&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100063645756528&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fbluewavemktg%2F&docid=Q4xCTDBa-NDISM&tbnid=HsSrOCyKgoEa9M&vet=12ahUKEwiRhaSe4NeQAxUXL9AFHceFMcQQM3oECBoQAA..i&w=400&h=400&hcb=2&ved=2ahUKEwiRhaSe4NeQAxUXL9AFHceFMcQQM3oECBoQAA",
+        "image": "images/Bluewave.jfif",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Digital Marketing", "Brand Strategy", "Content Creation"]
     },
@@ -66,7 +66,7 @@
         },
         "phone": "+234 806 543 2109",
         "website": "www.harmonywellness.com",
-        "image": "https://www.google.com/imgres?q=Harmony%20Wellness%20Center%20images&imgurl=https%3A%2F%2Fwww.harmonywellnesscenter.com%2Fwp-content%2Fuploads%2F2022%2F11%2FHarmony-Logo-R1-500x500-1.jpg&imgrefurl=https%3A%2F%2Fwww.harmonywellnesscenter.com%2F&docid=Fv94RsRFjHonhM&tbnid=nFwrTAX61wRk7M&vet=12ahUKEwiJlJvI4NeQAxVq5ckDHXdLCaUQM3oECBUQAA..i&w=500&h=500&hcb=2&ved=2ahUKEwiJlJvI4NeQAxVq5ckDHXdLCaUQM3oECBUQAA",
+        "image": "images/harmony.jfif",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Spa Services", "Yoga Classes", "Nutrition Counseling"]
     },
@@ -80,7 +80,7 @@
         },
         "phone": "+234 805 432 1098",
         "website": "www.apexfinancial.com",
-        "image": "https://www.google.com/imgres?q=Apex%20Financial%20Advisors%20images&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100063088248686&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fapexfinancialadvisors%2F&docid=FN0xU-egIdvi9M&tbnid=8hZPZvH35xeqkM&vet=12ahUKEwiW_4Tn4NeQAxW56BoGHWlDBWoQM3oECCIQAA..i&w=958&h=958&hcb=2&ved=2ahUKEwiW_4Tn4NeQAxW56BoGHWlDBWoQM3oECCIQAA",
+        "image": "images/apex.jfif",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Financial Planning", "Investment Management", "Retirement Solutions"]
     },
@@ -94,7 +94,7 @@
         },
         "phone": "+234 804 321 0987",
         "website": "www.culinarydelights.com",
-        "image": "https://www.google.com/imgres?q=Culinary%20Delights%20Catering%20images&imgurl=http%3A%2F%2Fwww.culinarydelightcatering.com%2Fs%2Fmisc%2Flogo.png%3Ft%3D1749117627&imgrefurl=http%3A%2F%2Fwww.culinarydelightcatering.com%2F&docid=7BrZcng2R40L0M&tbnid=zCrkcSYhIjYtTM&vet=12ahUKEwjNnKuk4deQAxW24skDHVrWKLUQM3oECBoQAA..i&w=2600&h=2600&hcb=2&ved=2ahUKEwjNnKuk4deQAxW24skDHVrWKLUQM3oECBoQAA",
+        "image": "images/culinary.jfif",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Event Catering", "Menu Planning", "Private Chef Services"]
     } 

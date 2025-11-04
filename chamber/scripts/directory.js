@@ -42,8 +42,8 @@ function displayMembers(members) {
         card.appendChild(companyFullName);
         card.appendChild(address);
         card.appendChild(phone);
-        card.appendChild(website);
         card.appendChild(image);
+        card.appendChild(website);
         card.appendChild(services);
 
         // Append the card to the container

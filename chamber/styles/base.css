@@ -104,6 +104,62 @@ h1 {
     color: #3D405B;
 }
 
+/***************** DIRECTORY SECTION *************/
+.directory-section {
+    margin: 20px 0;
+}
+
+.directory-section button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    color: #3D405B;
+    border-radius: solid 4px #ccc;
+    margin-bottom: 10px;
+}
+
+.directory-section button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/***************** MEMBERS GRID *************/
+
+.members-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.members-grid section {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.members-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.members-grid h2 {
+    font-size: 1.2rem;
+    color: #3D405B;
+    margin: 10px 0 5px 0;
+}
+
+.members-grid p {
+    font-size: 0.9rem;
+    color: #3D405B;
+    margin: 5px 0;
+}
+
 
 /***************** FOOTER *************/
 footer {
