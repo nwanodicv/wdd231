@@ -4,9 +4,10 @@ let members = [];
 
 
 async function fetchMembersData() {
-    const response = await fetch('data/members.json');
-    const data = await response.json();
-    displayMembers(data.Companies);
+    const response = await fetch('data/members.json');// Fetch the data from the URL
+    const data = await response.json();// Parse the JSON data
+    members = data.Companies; // Store the data in the members array
+    displayMembers(members); // Call function to display members
 };
 displayMembers(members);
 
