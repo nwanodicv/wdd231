@@ -63,11 +63,28 @@
 
 
     /***************** HOME PAGE *************/
-  
 
-  /***************** FOOTER *************/
-  footer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
+
+    /***************** DIRECTORY SECTION *************/
+    .directory-section .list-view-btn::before{
+        content {
+            display: flex;
+        }
+    }
+
+    /***************** MEMBERS GRID *************/
+
+    .members-grid {
+        display: grid;
+        
+    }
+
+    /***************** MEMBERS LIST *************/
+
+
+    /***************** FOOTER *************/
+    footer {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
 }

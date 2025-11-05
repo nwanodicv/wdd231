@@ -57,14 +57,35 @@ const gridViewBtn = document.querySelector('#grid-view-btn');
 const listViewBtn = document.querySelector('#list-view-btn');
 gridViewBtn.addEventListener('click', (event) => {
     event.preventDefault();
-    membersContainer.classList.toggle('add', 'members-grid');
-    membersContainer.classList.toggle('remove', 'members-list');
+
+    const memberCards = membersContainer.querySelectorAll('section');
+    memberCards.forEach((card) => {
+      const img = card.querySelector('img');
+      if (img) {
+        img.style.display = 'block';
+      }
+    });
+
+    membersContainer.classList.add('members-grid');
+    membersContainer.classList.remove('members-list');
+
 });
+
 
 listViewBtn.addEventListener('click', (event) => {
     event.preventDefault();
+
+    const memberCards = membersContainer.querySelectorAll('section');
+  memberCards.forEach((card) => {
+    const img = card.querySelector('img');
+    if (img) {
+      img.style.display = 'none';
+    }
+  });
+
+
     membersContainer.classList.add('members-list');
     membersContainer.classList.remove('members-grid');
 });
-
+// Fetch members data when the page loads
 fetchMembersData();

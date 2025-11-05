@@ -122,11 +122,20 @@ h1 {
     text-decoration: underline;
     cursor: pointer;
 }
+.directory-section .list-view-btn::before{
+    content: url(../images/card-list.svg);
+    margin-right: 6px;
+}
+.directory-section .grid-view-btn::before{
+    content: url(../images/card-grid.svg);
+    margin-right: 6px;
+}
+
 
 /***************** MEMBERS GRID *************/
 
 .members-grid {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 10px;
@@ -138,6 +147,7 @@ h1 {
     padding: 10px;
     background-color: #eee;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .members-grid img {
@@ -160,6 +170,58 @@ h1 {
     margin: 5px 0;
 }
 
+/***************** MEMBERS LIST *************/
+
+.members-list {
+  display: block;
+  padding: 10px;
+}
+
+.members-list section {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  align-items: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.members-list h2 {
+  margin: 0;
+  color: #3D405B;
+}
+
+.members-list p {
+  margin: 0 10px;
+  color: #3D405B;
+  font-size: 0.9rem;
+}
+
+/*************** FOR ZEBRA COLOR****************/
+.members-list section:nth-child(odd) {
+  background-color: #ccc; /* light greenish or pale tone */
+}
+
+.members-list section:nth-child(even) {
+  background-color: #eee; /* slightly darker shade */
+}
+
+/* Adjust text layout for readability */
+.members-list h2,
+.members-list p,
+.members-list a {
+  margin: 0.3rem 0;
+  color: #3D405B;
+}
+
+.members-list a {
+  color: blue
+}
+
+section img{
+    margin-left: 30px;
+}
 
 /***************** FOOTER *************/
 footer {
