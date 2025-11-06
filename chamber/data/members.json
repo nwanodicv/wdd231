@@ -10,7 +10,7 @@
         },
         "phone": "+234 803 123 4567",
         "website": "www.frankbryanleisure.com",
-        "image": "images/frankbryan.jfif",
+        "image": "images/frankbryan.jpg",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Accommodation", "Event Hosting", "Recreational Activities"]
     },
@@ -24,7 +24,7 @@
         },
         "phone": "+234 802 765 4321",
         "website": "www.greenfieldtech.com",
-        "image": "images/greenfield.jfif",
+        "image": "images/Greenfield.jpg",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Software Development", "IT Consulting", "Cloud Services"]
     },
@@ -38,7 +38,7 @@
         },
         "phone": "+234 809 876 5432",
         "website": "www.sunriseorganic.com",
-        "image": "images/sunrise.jfif",
+        "image": "images/sunrise.jpg",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Organic Produce", "Farm Tours", "Workshops"]
     },
@@ -52,7 +52,7 @@
         },
         "phone": "+234 807 654 3210",
         "website": "www.bluewavemarketing.com",
-        "image": "images/Bluewave.jfif",
+        "image": "images/Bluewave.jpg",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Digital Marketing", "Brand Strategy", "Content Creation"]
     },
@@ -66,7 +66,7 @@
         },
         "phone": "+234 806 543 2109",
         "website": "www.harmonywellness.com",
-        "image": "images/harmony.jfif",
+        "image": "images/harmony.jpg",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Spa Services", "Yoga Classes", "Nutrition Counseling"]
     },
@@ -80,7 +80,7 @@
         },
         "phone": "+234 805 432 1098",
         "website": "www.apexfinancial.com",
-        "image": "images/apex.jfif",
+        "image": "images/apex.jpg",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Financial Planning", "Investment Management", "Retirement Solutions"]
     },
@@ -94,7 +94,7 @@
         },
         "phone": "+234 804 321 0987",
         "website": "www.culinarydelights.com",
-        "image": "images/culinary.jfif",
+        "image": "images/culinary.jpg",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Event Catering", "Menu Planning", "Private Chef Services"]
     } 

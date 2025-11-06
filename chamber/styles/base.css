@@ -114,21 +114,23 @@ h1 {
     margin-left: 10px;
     border: none;
     color: #3D405B;
-    border-radius: solid 4px #ccc;
+    border-radius: solid 8px #ccc;
     margin-bottom: 10px;
 }
 
+
+
 .directory-section button:hover {
-    text-decoration: underline;
+    background-color: #ddd;
     cursor: pointer;
 }
 .directory-section .list-view-btn::before{
     content: url(../images/card-list.svg);
-    margin-right: 6px;
+    text-align: center;
 }
 .directory-section .grid-view-btn::before{
     content: url(../images/card-grid.svg);
-    margin-right: 6px;
+    text-align: center;
 }
 
 
@@ -198,30 +200,6 @@ h1 {
   font-size: 0.9rem;
 }
 
-/*************** FOR ZEBRA COLOR****************/
-.members-list section:nth-child(odd) {
-  background-color: #ccc; /* light greenish or pale tone */
-}
-
-.members-list section:nth-child(even) {
-  background-color: #eee; /* slightly darker shade */
-}
-
-/* Adjust text layout for readability */
-.members-list h2,
-.members-list p,
-.members-list a {
-  margin: 0.3rem 0;
-  color: #3D405B;
-}
-
-.members-list a {
-  color: blue
-}
-
-section img{
-    margin-left: 30px;
-}
 
 /***************** FOOTER *************/
 footer {
