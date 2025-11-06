@@ -22,6 +22,7 @@ function displayMembers(members) {
         let phone = document.createElement('p');
         let website = document.createElement('a');
         let image = document.createElement('img');
+        let membershipLevel = document.createElement('p');
         let services = document.createElement('p');
 
         // Set the content and attributes// Set the content and attributes
@@ -36,6 +37,7 @@ function displayMembers(members) {
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '200');
         image.setAttribute('height', '200');
+        membershipLevel.textContent = `Membership Level: ${member.membershipLevel[1]}`;
         services.textContent = `Services: ${member.services.join(', ')}`;
 
         // Append elements to the card
@@ -43,8 +45,9 @@ function displayMembers(members) {
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(image);
-        card.appendChild(website);
         card.appendChild(services);
+        card.appendChild(membershipLevel);
+        card.appendChild(website);
 
         // Append the card to the container
         membersContainer.appendChild(card);

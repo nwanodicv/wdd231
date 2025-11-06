@@ -73,6 +73,10 @@
         }
     }
 
+    div section img {
+    margin-left: 7px;
+  }
+
     /*************** FOR ZEBRA COLOR****************/
     .members-list section:nth-child(odd) {
       background-color: #ccc; /* light greenish or pale tone */
