@@ -52,7 +52,7 @@
         },
         "phone": "+234 807 654 3210",
         "website": "www.bluewavemarketing.com",
-        "image": "images/Bluewave.png",
+        "image": "images/BlueWave.png",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Digital Marketing", "Brand Strategy", "Content Creation"]
     },
@@ -66,7 +66,7 @@
         },
         "phone": "+234 806 543 2109",
         "website": "www.harmonywellness.com",
-        "image": "images/harmony.png",
+        "image": "images/Harmony.png",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Spa Services", "Yoga Classes", "Nutrition Counseling"]
     },
@@ -80,7 +80,7 @@
         },
         "phone": "+234 805 432 1098",
         "website": "www.apexfinancial.com",
-        "image": "images/apex.png",
+        "image": "images/Apex.png",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Financial Planning", "Investment Management", "Retirement Solutions"]
     },
@@ -94,7 +94,7 @@
         },
         "phone": "+234 804 321 0987",
         "website": "www.culinarydelights.com",
-        "image": "images/culinary.png",
+        "image": "images/Culinary.png",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Event Catering", "Menu Planning", "Private Chef Services"]
     } 
