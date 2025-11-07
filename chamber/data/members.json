@@ -37,7 +37,7 @@
         "zip": "200002"
         },
         "phone": "+234 809 876 5432",
-        "website": "www.sunriseorganic.com",
+        "website": "",
         "image": "images/sunrise.png",
         "membershipLevel": {"1": "member", "2": "silver", "3": "gold", "4": "platinum"},
         "services": ["Organic Produce", "Farm Tours", "Workshops"]
