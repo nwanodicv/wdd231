@@ -56,7 +56,8 @@ function displayMembers(members) {
 };
 displayMembers(members);
 
-// View mode buttons
+// **************** VIEW MODE BUTTON SECTION*******************
+// Grid view button event listener
 const gridViewBtn = document.querySelector('#grid-view-btn');
 const listViewBtn = document.querySelector('#list-view-btn');
 gridViewBtn.addEventListener('click', (event) => {
@@ -65,11 +66,9 @@ gridViewBtn.addEventListener('click', (event) => {
     membersContainer.classList.remove('members-list');
 });
 
-
+// List view button event listener
 listViewBtn.addEventListener('click', (event) => {
     event.preventDefault();
     membersContainer.classList.add('members-list');
     membersContainer.classList.remove('members-grid');
 });
-// Fetch members data when the page loads
-fetchMembersData();
