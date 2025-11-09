@@ -18,7 +18,7 @@
 
    header span {
     font-size: 0.7rem;
-    color: #3D405B;
+    color: #2C2E47;
     padding-bottom: 18px;
   }
 
@@ -75,27 +75,6 @@
 
     div section img {
     margin-right: 0;
-    }
-
-    /*************** FOR ZEBRA COLOR****************/
-    .members-list section:nth-child(odd) {
-      background-color: #ccc; /* light greenish or pale tone */
-    }
-    
-    .members-list section:nth-child(even) {
-      background-color: #eee; /* slightly darker shade */
-    }
-    
-    /* Adjust text layout for readability */
-    .members-list h2,
-    .members-list p,
-    .members-list a {
-      margin: 0.3rem 0;
-      color: #3D405B;
-    }
-    
-    .members-list a {
-      color: blue
     }
 
 

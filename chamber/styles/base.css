@@ -3,7 +3,7 @@
 🌲 Dark Green Strong contrast: #006400
 🌱 Medium Green Natural and balanced: #3CB371
 Terra cotta: #E07A5F
-Deep Slate Blue: #3D405B
+Deep Slate Blue: #2C2E47
 Hamburger open icon: \2630
 Hamburger closing icon: \00D7
 */
@@ -32,14 +32,14 @@ header Img {
 
 header span {
     font-size: 0.7rem;
-    color: #3D405B;
+    color: #2C2E47;
 }
 
 /***************** HAMBURGER NAVIGATION *************/
 .hamburger {
     background: none;
     border: none;
-    color: #3D405B;
+    color: #2C2E47;
     cursor: pointer;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -74,7 +74,7 @@ header span {
 .nav-links a {
     display: block;
     text-decoration: none;
-    color: #3D405B;
+    color: #2C2E47;
     padding: 0.8rem 10px;
     border-bottom: solid 1px #ddd;
     width: 20rem;
@@ -101,7 +101,7 @@ header span {
 
 h1 {
     margin-left: 10px;
-    color: #3D405B;
+    color: #2C2E47;
 }
 
 /***************** DIRECTORY SECTION *************/
@@ -113,7 +113,7 @@ h1 {
     padding: 10px;
     margin-left: 10px;
     border: none;
-    color: #3D405B;
+    color: #2C2E47;
     border-radius: solid 8px #ccc;
     margin-bottom: 10px;
 }
@@ -142,6 +142,10 @@ h1 {
     padding: 10px;
 }
 
+.members-grid img { 
+    display: block; 
+}
+
 .members-grid section {
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -162,13 +166,13 @@ h1 {
 
 .members-grid h2 {
     font-size: 1.2rem;
-    color: #3D405B;
+    color: #2C2E47;
     margin: 10px 0 5px 0;
 }
 
 .members-grid p {
     font-size: 0.9rem;
-    color: #3D405B;
+    color: #2C2E47;
     margin: 5px 0;
 }
 
@@ -185,6 +189,10 @@ div section img {
   padding: 10px;
 }
 
+.members-list img { 
+    display: none; 
+}
+
 .members-list section {
   display: flex;
   justify-content: space-between;
@@ -197,13 +205,36 @@ div section img {
 
 .members-list h2 {
   margin: 0;
-  color: #3D405B;
+  color: #2C2E47;
 }
 
 .members-list p {
   margin: 0 10px;
-  color: #3D405B;
+  color: #2C2E47;
   font-size: 0.9rem;
+}
+
+/*************** FOR ZEBRA COLOR****************/
+.members-list section:nth-child(odd) {
+  background-color: #ccc; /* light greenish or pale tone */
+  width: 50rem;
+}
+
+.members-list section:nth-child(even) {
+  background-color: #eee; /* slightly darker shade */
+    width: 50rem;
+}
+
+/* Adjust text layout for readability */
+.members-list h2,
+.members-list p,
+.members-list a {
+  margin: 0.3rem 0;
+  color: #2C2E47;
+}
+
+.members-list a {
+  color: blue
 }
 
 
@@ -242,14 +273,14 @@ footer {
 }
 
 footer p {
-    color: #3D405B;
+    color: #2C2E47;
     font-size: 0.7rem;
     margin: 0;
     padding-bottom: 4px;
 }
 
 footer h3 {
-    color: #3D405B;
+    color: #2C2E47;
     font-size: 0.7rem;
     font-weight: bold;
     padding-bottom: 4px;

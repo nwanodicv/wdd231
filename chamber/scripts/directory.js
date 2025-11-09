@@ -9,7 +9,8 @@ async function fetchMembersData() {
     members = data.Companies; // Store the data in the members array
     displayMembers(members); // Call function to display members
 };
-displayMembers(members);
+fetchMembersData(); // keep only this one
+
 
 const membersContainer = document.querySelector('#members-container');
 
@@ -61,13 +62,7 @@ const listViewBtn = document.querySelector('#list-view-btn');
 gridViewBtn.addEventListener('click', (event) => {
     event.preventDefault();
 
-    const memberCards = membersContainer.querySelectorAll('section');
-    memberCards.forEach((card) => {
-      const img = card.querySelector('img');
-      if (img) {
-        img.style.display = 'block';
-      }
-    });
+   
 
     membersContainer.classList.add('members-grid');
     membersContainer.classList.remove('members-list');
@@ -78,13 +73,8 @@ gridViewBtn.addEventListener('click', (event) => {
 listViewBtn.addEventListener('click', (event) => {
     event.preventDefault();
 
-    const memberCards = membersContainer.querySelectorAll('section');
-  memberCards.forEach((card) => {
-    const img = card.querySelector('img');
-    if (img) {
-      img.style.display = 'none';
-    }
-  });
+    
+  
 
 
     membersContainer.classList.add('members-list');
