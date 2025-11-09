@@ -61,22 +61,13 @@ const gridViewBtn = document.querySelector('#grid-view-btn');
 const listViewBtn = document.querySelector('#list-view-btn');
 gridViewBtn.addEventListener('click', (event) => {
     event.preventDefault();
-
-   
-
     membersContainer.classList.add('members-grid');
     membersContainer.classList.remove('members-list');
-
 });
 
 
 listViewBtn.addEventListener('click', (event) => {
     event.preventDefault();
-
-    
-  
-
-
     membersContainer.classList.add('members-list');
     membersContainer.classList.remove('members-grid');
 });
