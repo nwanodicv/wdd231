@@ -118,7 +118,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-
 .directory-section button:hover {
     background-color: #ddd;
     cursor: pointer;
@@ -156,12 +155,10 @@ h1 {
 }
 
 .members-grid img {
-    width: 200px;
+    width: 150px;
     height: auto;
     border-radius: 4px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-right: 1.5rem;
+    margin: 15px 55px;
 }
 
 .members-grid h2 {
