@@ -104,7 +104,72 @@ h1 {
     color: #2C2E47;
 }
 
-/***************** DIRECTORY SECTION *************/
+h2 {
+    color: #2C2E47;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+h3 {
+    color: #2C2E47;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.events-section {
+    display: block;
+    column-gap: 20px;
+}
+
+.events-section .weather-forecast {
+    width: 20rem;
+}
+
+.events-section h4 {
+    color: #2C2E47;
+}
+
+.events-section h3 {
+    margin: 0;
+    background-color: #2C2E47;
+    color: #ccc;
+    text-align: center;
+}
+
+section > img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+aside {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+aside > p {
+    margin-left: 10px;
+    color: #2C2E47;
+    font-size: 0.8rem;
+}
+
+aside li {
+    margin-left: 20px;
+    color: #2C2E47;
+    font-size: 0.9rem;
+}
+
+aside a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/***************** DIRECTORY PAGE *************/
 .directory-section {
     margin: 20px 0;
 }

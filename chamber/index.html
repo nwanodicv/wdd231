@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chamber Directory Page</title>
+    <title>Chamber Home Page</title>
     <meta name="description" content="The Ogwashi-uku Chamber of Commerce directory page. The source hub for businesses in Ogwashi-uku and its environ. We provide information on local events, business listings, and networking opportunities to foster economic growth in the community."/>
     <meta name="author" content="Chimezie Victor Stephen"/>
     <meta name="robots" content="index, follow">
@@ -19,8 +19,7 @@
       <!-- Script Here -->
       <script src="scripts/navigation.js" defer></script>
       <script src="scripts/date.js" defer></script>
-      <script src="scripts/course.js" defer></script>
-      <script src="scripts/directory.js" defer></script>
+      <script src="scripts/weather.js" defer></script>
   
     <!-- Font Awesome (icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -50,7 +49,7 @@
         <nav id="nav-links" class="nav-links">
             <ul>
                 <li class="home-page"><a href="" aria-label="Home">Home</a></li>
-                <li class="chamber-page"><a href="" aria-label="Directory">Directory</a></li>
+                <li class="chamber-page"><a href="https://nwanodicv.github.io/wdd231/chamber/directory.html" aria-label="Directory">Directory</a></li>
                 <li class="final-page"><a href="" aria-label="Join">Join</a></li>
                 <li class="final-page"><a href="" aria-label="Discover">Discover</a></li>
                 <img src="images/circle-half.svg" alt="Dark-light Mode" width="512" height="512" loading="lazy">
@@ -60,16 +59,62 @@
     </header>
     <main>
         <h1>Home</h1>
-        <!--------------------- DIRECTORY SECTION ---------------------------->
-        <section class="directory-section">
-            <div class="view-buttons">
-                
-                <button id="grid-view-btn" class="grid-view-btn" aria-label="Grid View"></button>
-                
-                <button id="list-view-btn" class="list-view-btn" aria-label="List View"></button>
-            </div>
-            <div id="members-container" class="members-grid"></div>
-            <!-- Member cards will be dynamically inserted here -->
+        <!------------------- SECTION ONE-------------------->
+        <section class="hero-section">
+            <img src="images/hero-image.jpg" alt="Chamber of Commerce Hero Image" loading="lazy">
+            <aside class="hero-text">
+                <h2>Welcome to the Ogwashi-uku Chamber of Commerce</h2>
+                 <p>We are dedicated to supporting and promoting local businesses in Ogwashi-uku and its surrounding areas. Our chamber serves as a hub for networking, resources, and advocacy to help our members thrive in today's competitive market.</p>
+                <p>As a member of our chamber, you will have access to a variety of benefits, including:</p>
+                <ul>
+                    <li>Networking events and opportunities to connect with other local business owners</li>
+                    <li>Access to business resources and educational workshops</li>
+                    <li>Advocacy on behalf of local businesses at the municipal and regional levels</li>
+                    <li>Marketing and promotional opportunities through our chamber website and events</li>
+                </ul>
+                <a href="" class="hero-btn" aria-label="Join Now Button">Join Now</a>
+            </aside>
+        </section>
+        <!------------------- SECTION TWO-------------------->
+        <h2>Upcoming Events</h2>
+        <section class="events-section">
+            <aside class="event-card">
+                <h3>Events</h3>
+                <p>Learn valuable skills and strategies to help grow your business in this interactive workshop. Topics will include marketing, customer service, and financial management.</p>
+                <p><strong>Date:</strong> April 10, 2025</p>
+                <p><strong>Time:</strong> 9:00 AM - 12:00 PM</p>
+                <p><strong>Location:</strong> Ogwashi-uku Chamber of Commerce Office</p>
+            </aside>
+           <!----------------------WEATHER SECTION------------------------>
+            <aside class="weather-widget">
+                <h3>Current Weather</h3>
+                <h4 id="city"></h4>
+                <p id="current-temp"></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="Weather Icon">
+                    <figcaption id="weather-description"></figcaption>
+                </figure>
+            </aside>
+            <aside class="weather-forecast">
+                <h3>Weather Forecast</h3>
+                <p id="today"></p>
+                <p id="Wednesday"></p>
+                <p id="Thursday"></p>
+            </aside>
+        </section>
+        <!------------------- SECTION THREE-------------------->
+        <section class="members-section">
+            <h2>Featured Members</h2>
+            <aside class="member-card">
+                <h3>ABC Consulting</h3>
+                <p>ABC Consulting is a full-service business consulting firm that specializes in helping small and medium-sized businesses achieve their goals. Their team of experienced consultants offers a range of services, including strategic planning, marketing, and financial management.</p>
+                <a href="" class="member-btn" aria-label="Learn More about ABC Consulting">Learn More</a>
+            </aside>
+            <aside class="member-card">
+                <h3>XYZ Marketing</h3>
+                <p>XYZ Marketing is a leading marketing agency that helps businesses of all sizes reach their target audiences. Their team of experts offers a range of services, including social media marketing, search engine optimization, and content marketing.</p>
+                <a href="" class="member-btn" aria-label="Learn More about XYZ Marketing">Learn More</a>
+            </aside>
         </section>
     </main>
     <footer>
