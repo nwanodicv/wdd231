@@ -1,7 +1,7 @@
 @media only screen and (min-width: 38rem) {
     
     header, nav, main, footer {
-        max-width: 1100px;
+        max-width: 1150px;
         margin: 0 auto;
     }
 
@@ -61,8 +61,20 @@
     }
     
     /***************** HOME PAGE *************/
-    .events-section {
+    .events-section, .members-section {
         display: flex;
+    }
+
+    .member-card {
+        width: 30rem;
+    }
+    
+    .card-info {
+        display: flex;
+    }
+
+    .card-info img {
+        margin-left: 0;
     }
 
     /***************** DIRECTORY SECTION *************/

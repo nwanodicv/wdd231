@@ -45,5 +45,4 @@ function displayResults(data) {
   thursdayWeather.innerHTML = `Thursday: 88 °F`;
   console.log('Hello World');
 }
-
 apiFetch();

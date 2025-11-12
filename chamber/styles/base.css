@@ -116,13 +116,17 @@ h3 {
     font-size: 0.9rem;
 }
 
-.events-section {
+.events-section, .members-section{
     display: block;
     column-gap: 20px;
 }
 
 .events-section .weather-forecast {
-    width: 20rem;
+    width: 19.2rem;
+}
+
+.events-section .weather-widget {
+    width: 19.2rem;
 }
 
 .events-section h4 {
@@ -168,6 +172,29 @@ aside a {
     text-decoration: none;
     margin-left: 10px;
 }
+
+.member-card {
+    width: 19.2rem;
+}
+
+.member-card h3 {
+    border-bottom: solid 4px #aaa;
+    margin-left: 0;
+    text-align: center;
+}
+
+.card-info {
+    display: grid;
+    column-gap: 10px;
+    margin-left: 10px;
+}
+
+.card-info img {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 5rem;
+}
+
 
 /***************** DIRECTORY PAGE *************/
 .directory-section {
@@ -243,9 +270,7 @@ div section img {
     text-align: center;
 }
 
-
 /***************** MEMBERS LIST *************/
-
 .members-list {
   display: block;
   padding: 10px;
