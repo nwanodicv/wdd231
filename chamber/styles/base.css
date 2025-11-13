@@ -88,9 +88,9 @@ header span {
 }
 
 /***************** way finding *************/
-.nav-links li.home-page {
+.nav-links li.chamber-page {
     background-color: #eee;
-    width: 5rem;
+    width: 100%;
 }
 
 .nav-links a:hover {
@@ -122,11 +122,11 @@ h3 {
 }
 
 .events-section .weather-forecast {
-    width: 19.5rem;
+    width: 100%;
 }
 
 .events-section .weather-widget {
-    width: 19.5rem;
+    width: 100%;
 }
 
 .events-section h4 {
@@ -174,7 +174,7 @@ aside a {
 }
 
 .member-card {
-    width: 19.5rem;
+    width: 100%;
 }
 
 .member-card h3 {
@@ -250,7 +250,7 @@ aside a {
     width: 190px;
     height: auto;
     border-radius: 4px;
-    margin: 15px 55px;
+    margin: 15px 30px;
 }
 
 .members-grid h2 {
