@@ -49,10 +49,10 @@
     }
 
     /*******************WAY FINDING******************/
-   .nav-links li.chamber-page {
+    .nav-links li.home-page {
         background-color: #eee;
         width: 100%;
-    }
+   }
 
    .nav-links Img {
         width: 100%;
