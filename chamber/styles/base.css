@@ -304,12 +304,12 @@ div section img {
 /*************** FOR ZEBRA COLOR****************/
 .members-list section:nth-child(odd) {
   background-color: #ccc; /* light greenish or pale tone */
-  width: 50rem;
+  width: 100%;
 }
 
 .members-list section:nth-child(even) {
   background-color: #eee; /* slightly darker shade */
-    width: 50rem;
+    width: 100%;
 }
 
 /* Adjust text layout for readability */

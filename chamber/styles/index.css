@@ -195,6 +195,16 @@ aside a {
     margin-left: 5rem;
 }
 
+/***************** SPOTLIGHT ******************/
+.spotlight aside {
+    margin-bottom: 20px;
+}
+
+.spotlight p {
+    color: #2C2E47;
+}
+
+
 
 /***************** DIRECTORY PAGE *************/
 .directory-section {
