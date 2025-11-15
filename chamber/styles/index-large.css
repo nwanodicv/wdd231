@@ -77,6 +77,14 @@
         margin-left: 0;
     }
 
+    /***************** HERO SECTION ****************/ 
+    .hero-section .hero-text {
+    margin-bottom: 9rem;
+    opacity: 75%;
+    width: 40rem;
+    font-size: 1.8rem;
+   }
+
     /***************** SPOTLIGHT ******************/
     .members-section.spotlight {
         grid-template-columns: 1fr 1fr 1fr;
@@ -108,11 +116,6 @@
     .members-grid img {
         margin: 15px 70px;
     }
-
-
-
-    /***************** MEMBERS LIST *************/
-
 
     /***************** FOOTER *************/
     footer {
