@@ -3,13 +3,13 @@ async function loadSpotlights() {
         const response = await fetch("data/members.json");
         const data = await response.json();
 
-        // Filter silver and gold members
+        /******************* FILTER SILVER AND GOLD MEMBERS **********************/
         const qualified = data.Companies.filter(company =>
             company.membershipLevel["2"] === "silver" ||
             company.membershipLevel["3"] === "gold"
         );
 
-        // Randomly choose 2 or 3 spotlight members
+        /******************* RANDOMLY SELECT 2 OR 3 SPOTLIGHT MEMBERS **********************/
         const count = Math.random() < 0.5 ? 2 : 3;
         const spotlights = getRandomMembers(qualified, count);
 
