@@ -192,7 +192,36 @@ h2 {
     margin-left: 0;
 }
 
+/***************** DIALOG SECTION **********/
+dialog {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  padding: 20px;
+}
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
 
+dialog > div {
+    display: grid;
+    grid-template-columns: auto 44px;
+    column-gap: 10px;
+    margin-left: 10px;
+}
+
+dialog button {
+    width: auto;
+    height: 30px;
+    border-radius: solid 0.5px #ccc;
+}
+
+dialog p {
+    color: #3D405B;
+}
 
 /***************** FOOTER *************/
 footer {

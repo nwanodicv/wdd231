@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+header, main, footer {
+    max-width: 640px;
+    margin: 1rem;
+    border: 1px solid #bbb;
+    padding: 1rem;
+}
+
+header {
+    background-color: rgb(100, 100, 243);
+}
+
+h2 {
+    margin-right: 6rem;
+}
+/* Hamburger button styles */
+#menu-button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+#menu-button:hover {
+  transform: scale(1.1); /* little bounce */
+}
+
+/* start with menu hidden on mobile */
+.nav-bar-container {
+  display: none;
+  flex-direction: column;
+  background-color: rgb(100, 100, 243);
+  padding: 1rem;
+   justify-content: space-evenly;
+}
+
+.nav-bar-container.open {
+  display: flex;
+}
+
+
+div {
+    max-width: 100px;
+}
+
+.nav-bar-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar-container a:hover {
+  color: #ffcc00; /* yellow highlight for hover */
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+.main-album-container {
+    background-color: white;
+    margin-right: 5rem;
+}
+
+.album-container{
+    display: block;
+    max-width: 500px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    width: 15rem;
+    padding: 1 auto;
+    margin: 0 auto;
+}
+
+figure {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+  display: block;
+  margin: 0 auto; /* centers the image inside figure */
+}
+
+footer {
+    background-color: rgb(100, 100, 243);
+    margin-top: 1rem;
+    text-align: center;
+    grid-column: 5 / 1;
+    height: 10vh;
+    color: white;
+}
+
+span {
+    font-size: 10px;
+}

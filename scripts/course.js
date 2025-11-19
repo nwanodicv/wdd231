@@ -82,8 +82,23 @@ function displayCourses() {
             // add event listener to the button
             button.addEventListener('click', (event) => {
                 event.preventDefault();
-                alert(`You click ${csecourse[key]}`);
+                //alert(`You click ${csecourse[key]}`);
                 myTitle.innerHTML = key;
+
+                if (csecourse[key] === "CSE110") {
+                    content = "This is CSE110."
+                    myInfo.innerHTML = content;
+                };
+
+                if (csecourse[key] === "CSE111") {
+                    content = "This is CSE111."
+                    myInfo.innerHTML = content;
+                };
+
+                if (csecourse[key] === "CSE210") {
+                    content = "This is CSE210."
+                    myInfo.innerHTML = content;
+                };
                 myDialog.showModal();
             } );
             container.append(button);
@@ -123,7 +138,7 @@ function displayCourses() {
             // add event listener to the button
             button.addEventListener('click', (event) => {
                 event.preventDefault();
-                alert(`You click ${wddcourse[key]}`);
+                //alert(`You click ${wddcourse[key]}`);
                 myTitle.innerHTML = key;
                 
 
@@ -133,12 +148,12 @@ function displayCourses() {
                 };
 
                 if (wddcourse[key] === "WDD131") {
-                    content = "This is wdd131."
+                    content = "Dynamic Web Fundamentals is the study of how to build websites that respond to user actions, display changing data, and interact with servers. It focuses on core technologies such as HTML, CSS, and JavaScript, along with tools and techniques that allow web pages to update content dynamically without reloading. Students learn how to create interactive interfaces, handle events, work with data, and develop web applications that feel fast, modern, and responsive.."
                     myInfo.innerHTML = content;
                 };
 
                 if (wddcourse[key] === "WDD231") {
-                    content = "This is wdd231."
+                    content = "Welcome to Web Frontend Development. This course builds on your prior experience with the core technologies of web design and development including HTML, CSS, JavaScript, and design. The course focuses on user experience, accessibility, compliance, performance optimization, and basic API use. It is anticipated that students who complete this course will have very firm grasp of the core web technologies of HTML, CSS, and JavaScript and be ready for the next sequence of application courses."
                     myInfo.innerHTML = content;
                 };
 
