@@ -15,6 +15,7 @@
       <link rel="stylesheet" href="styles/normalize.css">
       <link rel="stylesheet" href="styles/index.css">
       <link rel="stylesheet" href="styles/index-large.css">
+      <link rel="stylesheet" href="styles/form.css">
   
       <!-- Script Here -->
       <script src="scripts/navigation.js" defer></script>
@@ -60,58 +61,64 @@
     </header>
     <main>
         <h1>Home</h1>
-        <!------------------- SECTION ONE-------------------->
-        <section class="hero-section">
-            
-            <img src="images/hero-image.jpg" alt="Chamber of Commerce Hero Image" loading="lazy">
-            <h2 class="hero-text">Welcome to the Ogwashi-uku Chamber of Commerce</h2>
-            <a href="join.html" class="hero-btn" aria-label="Join Now Button">Join Now</a>
-        </section>
-        <section>
-            <aside class="hero-text">
-                <h2>The Ogwashi-uku Chamber of Commerce</h2>
-                 <p>We are dedicated to supporting and promoting local businesses in Ogwashi-uku and its surrounding areas. Our chamber serves as a hub for networking, resources, and advocacy to help our members thrive in today's competitive market.</p>
-                <p>As a member of our chamber, you will have access to a variety of benefits, including:</p>
-                <ul>
-                    <li>Networking events and opportunities to connect with other local business owners</li>
-                    <li>Access to business resources and educational workshops</li>
-                    <li>Advocacy on behalf of local businesses at the municipal and regional levels</li>
-                    <li>Marketing and promotional opportunities through our chamber website and events</li>
-                </ul>
-            </aside>
-        </section>
-        <!------------------- SECTION TWO-------------------->
-        <!--The below h2 headings are not part of the assignment requirement, please ignore-->
-        <h2>Upcoming Events</h2>
-        <section class="events-section">
-            <aside class="event-card">
-                <h3>Events</h3>
-                <p>Learn valuable skills and strategies to help grow your business in this interactive workshop. Topics will include marketing, customer service, and financial management.</p>
-                <p><strong>Date:</strong> April 10, 2025</p>
-                <p><strong>Time:</strong> 9:00 AM - 12:00 PM</p>
-                <p><strong>Location:</strong> Ogwashi-uku Chamber of Commerce Office</p>
-            </aside>
-           <!----------------------WEATHER SECTION------------------------>
-            <aside class="weather-widget">
-                <h3>Current Weather</h3>
-                <h4 id="city"></h4>
-                <p id="current-temp"></p>
-                <figure>
-                    <img id="weather-icon" src="" alt="Weather Icon">
-                    <figcaption id="weather-description"></figcaption>
-                </figure>
-            </aside>
-            <aside class="weather-forecast">
-                <h3>Weather Forecast</h3>
-                <p id="today"></p>
-                <p id="Wednesday"></p>
-                <p id="Thursday"></p>
-            </aside>
-        </section>
-        <h2>Spotlight</h2>
-        <section class="members-section spotlight">
-            
-        </section>
+        <!------------------- FORM SECTION-------------------->
+        <form method="get" action="thankyou.html" class="form" id="reviewForm" novalidate>
+            <fieldset>
+              <legend>Product Review</legend>
+          
+              <!-- Product Name -->
+              <label for="productName">Product Name<span class="required" aria-hidden="true">*
+                <select id="productName" name="productName" required>
+                  <!-- Options dynamically populated -->
+                </select>
+              </label>
+          
+              <!-- Overall Rating -->
+              <div class="radio-group">Overall Rating <span class="required" aria-hidden="true">*</span></div>
+                <label for="rating1"><input type="radio" id="rating1" name="rating" value="1" required>*</label>
+                <label for="rating2"><input type="radio" id="rating2" name="rating" value="2">**</label>
+                <label for="rating3"><input type="radio" id="rating3" name="rating" value="3">***</label>
+                <label for="rating4"><input type="radio" id="rating4" name="rating" value="4">****</label>
+                <label for="rating5"><input type="radio" id="rating5" name="rating" value="5">*****</label>
+          
+              <!-- Installation Date -->
+              <div class="installed-date">Date of Installation <span class="required" aria-hidden="true">*</div>
+              <label for="installationDate">
+                <input type="date" id="installationDate" name="installationDate" class="date-input" required>
+              </label>
+          
+              <!-- Features -->
+              <div class="h4-text">Which feature do you find useful in the product?</div>
+              <div class="h5-text">(Check all that apply) <span class="required" aria-hidden="true">*</div>
+              <div class="checkbox-area" role="group" aria-labelledby="featuresLabel">
+                <div id="featuresLabel" class="visually-hidden">Product features</div>
+                <label for="durability"><input type="checkbox" id="durability" name="features" value="durability">Durability</label>
+                <label for="easyOfUse"><input type="checkbox" id="easyOfUse" name="features" value="easeOfUse">Ease of Use</label>
+                <label for="performance"><input type="checkbox" id="performance" name="features" value="performance">Performance</label>
+                <label for="design"><input type="checkbox" id="design" name="features" value="design">Design</label>
+              </div>
+          
+              <!-- Review -->
+              <div class="text-area">
+                <div class="input-name">Write Review</div>
+                <div class="option input-name">(Optional)</div>
+              </div>
+              <textarea placeholder="Write your review..." id="reviewText" name="reviewText" class="input-area"></textarea>
+          
+              <!-- Name -->
+              <div class="text-area">
+                <div class="input-name">Your Name</div>
+                <div class="option input-name">(Optional)</div>
+              </div>
+              <input placeholder="Enter your name" type="text" id="userName" name="userName" class="input-area">
+          
+              <!-- Submit -->
+              <div>
+                <button class="submit-btn" type="submit" id="submitReview">Post Review</button>
+              </div>
+            </fieldset>
+        </form>
+        
     </main>
     <footer>
         <div>

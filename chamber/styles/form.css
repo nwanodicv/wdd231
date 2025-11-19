@@ -1,0 +1,112 @@
+/*.................FORM HERE............*/
+h1 {
+    text-align: center;
+	color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: 2rem 2rem 3rem 5rem;
+}
+
+.form fieldset {
+	background-color:rgb(248, 248, 250);
+	width: 8rem;
+}
+
+.required { 
+    color: rgb(204, 0, 0); 
+    margin-left: .25rem;
+    font-size: 1rem; 
+}
+
+.visually-hidden { 
+    position:absolute!important; 
+    height:1px; 
+    width:1px; 
+    overflow:hidden; 
+    clip:rect(1px,1px,1px,1px); 
+    white-space:nowrap; }
+
+.form legend {
+    text-align: center;
+    margin-bottom: 1rem;
+	padding-left: .1rem;
+	font-size: 1.3rem;
+}
+
+.form select {
+	display: block;
+	padding: .75rem;
+	border-radius: 1rem;
+}
+
+.form input[type="radio"] {
+    margin-top: 1rem;
+	display: inline-table;
+    color:rgb(128, 0, 128);
+}
+
+.checkbox-area {
+	display: grid;
+}
+
+.radio-group {
+	margin-top: 1rem;
+}
+
+.installed-date {
+	margin-top: 1rem;
+}
+
+.date-input {
+	width: 14.5rem;
+	padding: .75rem;
+	border-radius: 1rem;
+}
+
+.h4-text {
+	margin-top: 1rem;
+	font-size: 15px;
+}
+
+.h5-text {
+	font-style: italic;
+	font-size: 15px;
+}
+
+.text-area {
+	display: flex;
+}
+
+.option {
+	color: rgb(128, 0, 128);
+}
+
+option {
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 0, 128)
+}
+
+select {
+	width: 16rem;
+}
+
+
+.input-name {
+	margin-top: 1rem;
+}
+
+.input-area {
+	width: 16rem;
+	height: 5rem;
+	text-align: center;
+	border-radius: .4rem;
+}
+
+.submit-btn {
+	margin-top: 1rem;
+	width: 16.5rem;
+	padding: .75rem;
+	border-radius: 1rem;
+	font-size: 1.5rem;
+    background-color:rgb(128, 0, 128);
+	color: white;
+}
