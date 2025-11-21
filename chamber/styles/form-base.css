@@ -7,120 +7,65 @@ html {
 	-ms-text-size-adjust: 100%;
 }
 
+h3 {
+      font-size: .9rem;
+      color: #2C2E47;
+      margin: 0.2rem 10px .2rem 0;
+      border-bottom: 1px solid #eee;
+    }
+
 form {
 	display: block;
-	margin: 1rem 2%;
-}
+	margin-left: 10px;
 
-/*.................FORM HERE............*/
-h1 {
-    text-align: center;
-	color: rgb(255, 255, 255);
-    font-size: 1rem;
-    margin: 2rem 2rem 3rem 5rem;
-}
+	label {
+      display: block;
+      font-size: .8rem;
+      color: #2C2E47;
+      padding-top: .2rem;
+	}
 
-.form fieldset {
-	background-color:rgb(248, 248, 250);
-	width: 8rem;
-}
+	input[type=text],
+    input[type=tel],
+    input[type=date],
+    input[type=telephone],
+    input[type=email],
+    select {
+      display: block;
+      margin: .1rem 0 1rem 0 ;
+      padding: .3rem;
+      border: 1px solid #999;
+      border-radius: 4px;
+      border-left-width: 5px;
+      border-left-color:#555;
+      font-size: 1rem;
+      color: #2C2E47;
+      width: 250px;
+    }
 
-.required { 
-    color: rgb(204, 0, 0); 
-    margin-left: .25rem;
-    font-size: 1rem; 
-}
+	input[type=radio] {
+		margin-left: 10px;
+	}
 
-.visually-hidden { 
-    position:absolute!important; 
-    height:1px; 
-    width:1px; 
-    overflow:hidden; 
-    clip:rect(1px,1px,1px,1px); 
-    white-space:nowrap; }
+	input:required {border-left-color: #d70000;}
+    input:focus {border-left-color: black; outline:none;}
+    input:required:valid{border-left-color: green;}
 
-.form legend {
-    text-align: center;
-    margin-bottom: 1rem;
-	padding-left: .1rem;
-	font-size: 1.3rem;
-}
-
-.form select {
-	display: block;
-	padding: .75rem;
-	border-radius: 1rem;
-}
-
-.form input[type="radio"] {
-    margin-top: 1rem;
-	display: inline-table;
-    color:rgb(128, 0, 128);
-}
-
-.checkbox-area {
-	display: grid;
-}
-
-.radio-group {
-	margin-top: 1rem;
-}
-
-.installed-date {
-	margin-top: 1rem;
-}
-
-.date-input {
-	width: 14.5rem;
-	padding: .75rem;
-	border-radius: 1rem;
-}
-
-.h4-text {
-	margin-top: 1rem;
-	font-size: 15px;
-}
-
-.h5-text {
-	font-style: italic;
-	font-size: 15px;
-}
-
-.text-area {
-	display: flex;
-}
-
-.option {
-	color: rgb(128, 0, 128);
-}
-
-option {
-    color: rgb(255, 255, 255);
-    background-color: rgb(128, 0, 128)
-}
-
-select {
-	width: 16rem;
-}
-
-
-.input-name {
-	margin-top: 1rem;
-}
-
-.input-area {
-	width: 16rem;
-	height: 5rem;
-	text-align: center;
-	border-radius: .4rem;
-}
-
-.submit-btn {
-	margin-top: 1rem;
-	width: 16.5rem;
-	padding: .75rem;
-	border-radius: 1rem;
-	font-size: 1.5rem;
-    background-color:rgb(128, 0, 128);
-	color: white;
+	.busDes {
+		padding-top: 1rem;
+	}
+  
+    input[type=submit] {
+      border: none;
+	  width: 23%;
+      text-align: center;
+      background-color: #3D405B;
+      color: white;
+      border-radius: 1rem;
+      padding: .75rem 1.5rem;
+      margin: 2rem 0;
+      font-size: 1.2rem;
+      -webkit-appearance: none;
+      appearance: none;
+    }
 }

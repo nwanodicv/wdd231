@@ -61,101 +61,58 @@
         
     </header>
     <main>
-        <h1>Home</h1>
+        <h1>Join</h1>
         <!------------------- FORM SECTION-------------------->
         <form>
-            <label for="firstName">First Name</label>
-            <input name="firstname" id="firstName" type="text" autocomplete="given-name" required>
+            <label for="firstName">First Name
+                <input name="firstname" id="firstName" type="text" autocomplete="given-name" title="Your First Name" required>
+            </label>
+            
 
-            <label for="lastName">Last Name</label>
-            <input name="lastName" id="lastName" type="text" autocomplete="family-name" required>
+            <label for="lastName">Last Name
+                <input name="lastName" id="lastName" type="text" autocomplete="family-name" title="Your Last Name" required>
+            </label>
+            
 
-            <label for="organizationalTitle">Organizational Title</label>
-            <input name="organizationalTitle" id="organizationalTitle" type="text" autocomplete="organizational-title" required>
+            <label for="organizationalTitle">Organizational Title
+                <input name="organizationalTitle" id="organizationalTitle" type="text" autocomplete="organizational-title" title="Organizational Title" required>
+            </label>
+            
 
-            <label for="email">Email</label>
-            <input name="email" id="email" type="email" autocomplete="value" required>
+            <label for="email">Email
+                <input name="email" id="email" type="email" autocomplete="value" title="Your Email" required>
+            </label>
+            
 
-            <label for="phone">Phone</label>
-            <input name="phone" id="phone" type="telephone" autocomplete="value" required>
+            <label for="phone">Phone
+                <input name="phone" id="phone" type="telephone" autocomplete="value" title="Your Phone Number" required>
+            </label>
+            
 
-            <label for="businessName">Business Name</label>
-            <input name="businessName" id="businessName" type="text" autocomplete="business-name" required>
+            <label for="businessName">Business Name
+                <input name="businessName" id="businessName" type="text" autocomplete="business-name" required>
+            </label>
+            
+            <h3>Select Membership Level</h3>
+            <label><input name="MembershipLevel" id="nonProfitableOrg" type="radio" value="nonProfitableOrg" checked>Non Profitable</label>
+            <label><input name="MembershipLevel" id="nonProfitableOrg" type="radio" value="nonProfitableOrg" checked>Bronze</label>
+            <label><input name="MembershipLevel" id="bronze" type="radio" value="membership" checked>Silver</label>
+            <label><input name="MembershipLevel" id="nonProfitableOrg" type="radio" value="nonProfitableOrg" checked>Gold
+            </label>
+            
 
-            <label for="membershipLevel">Membership Level</label>
-            <select>
-                <option value="Select"></option>
-                <option>Non Profitable (NP)</option>
-                <option>Bronze</option>
-                <option>Silver</option>
-                <option>Gold</option>
-            </select>
+            <label for="businessDescription" class="busDes">Business description
+                <input name="businessDescription" id="businessDescription" type="text" autocomplete="business-description" required>
+            </label>
+           
 
-            <label for="businessDescription">Business description</label>
-            <input name="businessDescription" id="businessDescription" type="text" autocomplete="business-description" required>
-
-            <label for="timestamp">Timestamp</label>
-            <input name="timestamp" id="timestamp" type="date" autocomplete="time-stamp" required>
+            <label for="timestamp">Timestamp
+                <input name="timestamp" id="timestamp" type="date" autocomplete="time-stamp" required>
+            </label>
+            
 
             <input type="submit" value="Join Chamber">
         </form>
-        <form method="get" action="thankyou.html" class="form" id="reviewForm" novalidate>
-            <fieldset>
-              <legend>Product Review</legend>
-          
-              <!-- Product Name -->
-              <label for="productName">Product Name<span class="required" aria-hidden="true">*
-                <select id="productName" name="productName" required>
-                  <!-- Options dynamically populated -->
-                </select>
-              </label>
-          
-              <!-- Overall Rating -->
-              <div class="radio-group">Overall Rating <span class="required" aria-hidden="true">*</span></div>
-                <label for="rating1"><input type="radio" id="rating1" name="rating" value="1" required>*</label>
-                <label for="rating2"><input type="radio" id="rating2" name="rating" value="2">**</label>
-                <label for="rating3"><input type="radio" id="rating3" name="rating" value="3">***</label>
-                <label for="rating4"><input type="radio" id="rating4" name="rating" value="4">****</label>
-                <label for="rating5"><input type="radio" id="rating5" name="rating" value="5">*****</label>
-          
-              <!-- Installation Date -->
-              <div class="installed-date">Date of Installation <span class="required" aria-hidden="true">*</div>
-              <label for="installationDate">
-                <input type="date" id="installationDate" name="installationDate" class="date-input" required>
-              </label>
-          
-              <!-- Features -->
-              <div class="h4-text">Which feature do you find useful in the product?</div>
-              <div class="h5-text">(Check all that apply) <span class="required" aria-hidden="true">*</div>
-              <div class="checkbox-area" role="group" aria-labelledby="featuresLabel">
-                <div id="featuresLabel" class="visually-hidden">Product features</div>
-                <label for="durability"><input type="checkbox" id="durability" name="features" value="durability">Durability</label>
-                <label for="easyOfUse"><input type="checkbox" id="easyOfUse" name="features" value="easeOfUse">Ease of Use</label>
-                <label for="performance"><input type="checkbox" id="performance" name="features" value="performance">Performance</label>
-                <label for="design"><input type="checkbox" id="design" name="features" value="design">Design</label>
-              </div>
-          
-              <!-- Review -->
-              <div class="text-area">
-                <div class="input-name">Write Review</div>
-                <div class="option input-name">(Optional)</div>
-              </div>
-              <textarea placeholder="Write your review..." id="reviewText" name="reviewText" class="input-area"></textarea>
-          
-              <!-- Name -->
-              <div class="text-area">
-                <div class="input-name">Your Name</div>
-                <div class="option input-name">(Optional)</div>
-              </div>
-              <input placeholder="Enter your name" type="text" id="userName" name="userName" class="input-area">
-          
-              <!-- Submit -->
-              <div>
-                <button class="submit-btn" type="submit" id="submitReview">Post Review</button>
-              </div>
-            </fieldset>
-        </form>
-        
     </main>
     <footer>
         <div>
