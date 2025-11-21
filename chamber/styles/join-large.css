@@ -1,0 +1,125 @@
+@media only screen and (min-width: 38rem) {
+    
+    header, nav, main, footer {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    /***************** HEADER *************/
+    header {
+        grid-template-columns: 24px auto auto;
+    }
+
+    header Img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 18px;
+   }
+
+   header span {
+    font-size: 0.7rem;
+    color: #2C2E47;
+    padding-bottom: 18px;
+  }
+
+    /***************** HAMBURGER *************/
+    .hamburger {
+        display: none;
+    }
+
+    /***************** NAVIGATION MENU *************/
+    .nav-links {
+    display: block;
+    border-bottom: none;
+    }
+
+    .nav-links ul {
+        display: flex;
+    }
+
+    .nav-links a {
+        border: none;
+        padding: 14px;
+        width: auto;
+    }
+
+    .nav-links a:hover {
+        background-color: #fff;
+        text-decoration: underline;
+    }
+
+    /*******************WAY FINDING******************/
+    .nav-links li.join-page {
+        background-color: #eee;
+        width: 100%;
+   }
+
+   .nav-links Img {
+        width: 100%;
+        height: auto;
+        padding: 14px;
+    }
+    
+    /***************** HOME PAGE *************/
+    .events-section, .members-section {
+        display: flex;
+    }
+
+    .member-card {
+        width: 30rem;
+    }
+    
+    .card-info {
+        display: flex;
+    }
+
+    .card-info img {
+        margin-left: 0;
+    }
+
+    /***************** HERO SECTION ****************/ 
+    .hero-section .hero-text {
+    margin-bottom: 9rem;
+    opacity: 75%;
+    width: 40rem;
+    font-size: 1.8rem;
+   }
+
+    /***************** SPOTLIGHT ******************/
+    .members-section.spotlight {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+
+    .card-info img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /***************** DIRECTORY SECTION *************/
+    .directory-section .list-view-btn::before{
+        content {
+            display: flex;
+        }
+    }
+
+    div section img {
+    margin-right: 0;
+    }
+
+    /***************** MEMBERS GRID *************/
+    .members-grid {
+        display: grid;
+        
+    }
+
+    .members-grid img {
+        margin: 15px 70px;
+    }
+
+    /***************** FOOTER *************/
+    footer {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+}

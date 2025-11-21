@@ -1,0 +1,434 @@
+/***************** COLOR SCHEME *************
+🌿 Forest Green Deep and elegant: #228B22
+🌲 Dark Green Strong contrast: #006400
+🌱 Medium Green Natural and balanced: #3CB371
+Terra cotta: #E07A5F
+Deep Slate Blue: #2C2E47
+Hamburger open icon: \2630
+Hamburger closing icon: \00D7
+*/
+
+/***************** Site Wide *************/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/***************** Header Section *************/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 6px;
+}
+
+header Img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1px;
+}
+
+header span {
+    font-size: 0.7rem;
+    color: #2C2E47;
+}
+
+/***************** HAMBURGER NAVIGATION *************/
+.hamburger {
+    background: none;
+    border: none;
+    color: #2C2E47;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: " \2630";
+    font-size: 1.2rem;
+}
+
+.hamburger.show::before {
+    content: " \00D7";
+    font-size: 1.5rem;
+}
+
+/***************** NAVIGATION MENU *************/
+.nav-links {
+    display: none;
+    padding: 5px 0 5px 1px;
+    border-bottom: solid 1px #eee;
+}
+
+.nav-links.show {
+    display: block;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: #2C2E47;
+    padding: 0.8rem 10px;
+    border-bottom: solid 1px #ddd;
+    width: 20rem;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.nav-links img {
+    margin-left: 10px;
+    padding-top: 16px;
+}
+
+/***************** way finding *************/
+.nav-links li.join-page {
+    background-color: #eee;
+    width: 20rem;
+}
+
+.nav-links a:hover {
+    background-color: #E07A5F;
+}
+
+/***************** HERO SECTION *************/
+.hero-section {
+    position: relative;      /* Allows absolute positioning inside */
+    width: 100%;
+    max-height: 450px;
+    overflow: hidden;
+}
+.hero-section > img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.hero-section .hero-btn {
+    position: absolute;
+    bottom: 20%;            /* Move up from bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 85%;
+    background: #2C2E47;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+}
+
+.hero-section .hero-text {
+    position: absolute;
+    bottom: 20%;            /* Move up from bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2C2E47;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    font-size: 0.7rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    width: 40rem;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+
+}
+
+/***************** HOME PAGE *************/
+
+h1 {
+    margin-left: 10px;
+    color: #2C2E47;
+}
+
+h2 {
+    color: #2C2E47;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+h3 {
+    color: #2C2E47;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.events-section, .members-section{
+    display: block;
+    column-gap: 20px;
+}
+
+.events-section .weather-forecast {
+    width: 100%;
+}
+
+.events-section .weather-widget {
+    width: 100%;
+}
+
+.events-section h4 {
+    color: #2C2E47;
+}
+
+.events-section h3 {
+    margin: 0;
+    background-color: #2C2E47;
+    color: #ccc;
+    text-align: center;
+}
+
+section > img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+aside {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+aside > p {
+    margin-left: 10px;
+    color: #2C2E47;
+    font-size: 0.8rem;
+}
+
+aside li {
+    margin-left: 20px;
+    color: #2C2E47;
+    font-size: 0.9rem;
+}
+
+aside a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.member-card {
+    width: 100%;
+}
+
+.member-card h3 {
+    border-bottom: solid 4px #aaa;
+    margin-left: 0;
+    text-align: center;
+}
+
+.card-info {
+    display: grid;
+    column-gap: 10px;
+    margin-left: 10px;
+}
+
+.card-info img {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 5rem;
+}
+
+/***************** SPOTLIGHT ******************/
+.spotlight aside {
+    margin-bottom: 20px;
+}
+
+.spotlight p {
+    color: #2C2E47;
+}
+
+/***************** DIRECTORY PAGE *************/
+.directory-section {
+    margin: 20px 0;
+}
+
+.directory-section button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    color: #2C2E47;
+    border-radius: solid 8px #ccc;
+    margin-bottom: 10px;
+}
+
+.directory-section button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+.directory-section .list-view-btn::before{
+    content: url(../images/card-list.svg);
+    text-align: center;
+}
+.directory-section .grid-view-btn::before{
+    content: url(../images/card-grid.svg);
+    text-align: center;
+}
+
+
+/***************** MEMBERS GRID *************/
+
+.members-grid {
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.members-grid img { 
+    display: block; 
+}
+
+.members-grid section {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #eee;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.members-grid img {
+    width: 190px;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px 30px;
+}
+
+.members-grid h2 {
+    font-size: 1.2rem;
+    color: #2C2E47;
+    margin: 10px 0 5px 0;
+}
+
+.members-grid p {
+    font-size: 0.9rem;
+    color: #2C2E47;
+    margin: 5px 0;
+}
+
+div section img {
+    margin-left: 32px;
+    text-align: center;
+}
+
+/***************** MEMBERS LIST *************/
+.members-list {
+  display: block;
+  padding: 10px;
+}
+
+.members-list img { 
+    display: none; 
+}
+
+.members-list section {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  align-items: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.members-list h2 {
+  margin: 0;
+  color: #2C2E47;
+}
+
+.members-list p {
+  margin: 0 10px;
+  color: #2C2E47;
+  font-size: 0.9rem;
+}
+
+/*************** FOR ZEBRA COLOR****************/
+.members-list section:nth-child(odd) {
+  background-color: #ccc; /* light greenish or pale tone */
+  width: 50rem;
+}
+
+.members-list section:nth-child(even) {
+  background-color: #eee; /* slightly darker shade */
+    width: 50rem;
+}
+
+/* Adjust text layout for readability */
+.members-list h2,
+.members-list p,
+.members-list a {
+  margin: 0.3rem 0;
+  color: #2C2E47;
+}
+
+.members-list a {
+  color: blue
+}
+
+/***************** FOOTER *************/
+footer {
+    display: grid;
+    row-gap: 30px;
+    background-color: #eee;
+    text-align: center;
+    padding: 1rem 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #ccc solid 1px;
+    border-radius: 4px;
+}
+
+.social-media img {
+    width: 22px;
+    height: 22px;
+}
+
+.social-media a:hover {
+    background-color: #ddd;
+}
+
+footer p {
+    color: #2C2E47;
+    font-size: 0.7rem;
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+footer h3 {
+    color: #2C2E47;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+footer div {
+    text-align: left;
+}

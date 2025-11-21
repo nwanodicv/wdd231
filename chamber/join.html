@@ -13,8 +13,8 @@
   
     <!-- Style Sheet Here -->
       <link rel="stylesheet" href="styles/normalize.css">
-      <link rel="stylesheet" href="styles/index.css">
-      <link rel="stylesheet" href="styles/index-large.css">
+      <link rel="stylesheet" href="styles/join-base.css">
+      <link rel="stylesheet" href="styles/join-large.css">
       <link rel="stylesheet" href="styles/form-base.css">
       <link rel="stylesheet" href="styles/form-large.css">
   
@@ -53,7 +53,7 @@
             <ul>
                 <li class="home-page"><a href="" aria-label="Home">Home</a></li>
                 <li class="chamber-page"><a href="https://nwanodicv.github.io/wdd231/chamber/directory.html" aria-label="Directory">Directory</a></li>
-                <li class="final-page"><a href="" aria-label="Join">Join</a></li>
+                <li class="join-page"><a href="" aria-label="Join">Join</a></li>
                 <li class="final-page"><a href="" aria-label="Discover">Discover</a></li>
                 <img src="images/circle-half.svg" alt="Dark-light Mode" width="512" height="512" loading="lazy">
             </ul>
@@ -63,7 +63,7 @@
     <main>
         <h1>Join</h1>
         <!------------------- FORM SECTION-------------------->
-        <form>
+        <form method="GET" action="thankyou.html">
             <label for="firstName">First Name
                 <input name="firstname" id="firstName" type="text" autocomplete="given-name" title="Your First Name" required>
             </label>
@@ -80,12 +80,12 @@
             
 
             <label for="email">Email
-                <input name="email" id="email" type="email" autocomplete="value" title="Your Email" required>
+                <input name="email" id="email" type="email" autocomplete="email" title="Your Email" required placeholder="james@gmail.com">
             </label>
             
 
             <label for="phone">Phone
-                <input name="phone" id="phone" type="telephone" autocomplete="value" title="Your Phone Number" required>
+                <input name="phone" id="phone" type="telephone" autocomplete="Phone-number" title="Your Phone Number" required placeholder="+234-807-339-0964">
             </label>
             
 
@@ -94,10 +94,10 @@
             </label>
             
             <h3>Select Membership Level</h3>
-            <label><input name="MembershipLevel" id="nonProfitableOrg" type="radio" value="nonProfitableOrg" checked>Non Profitable</label>
-            <label><input name="MembershipLevel" id="nonProfitableOrg" type="radio" value="nonProfitableOrg" checked>Bronze</label>
-            <label><input name="MembershipLevel" id="bronze" type="radio" value="membership" checked>Silver</label>
-            <label><input name="MembershipLevel" id="nonProfitableOrg" type="radio" value="nonProfitableOrg" checked>Gold
+            <label><input name="MembershipLevel" type="radio" value="Non Profitable Organization" checked>Non Profitable</label>
+            <label><input name="MembershipLevel" type="radio" value="Bronze">Bronze</label>
+            <label><input name="MembershipLevel" type="radio" value="Silver">Silver</label>
+            <label><input name="MembershipLevel" type="radio" value="Gold">Gold
             </label>
             
 

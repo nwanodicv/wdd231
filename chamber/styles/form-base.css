@@ -40,7 +40,7 @@ form {
       border-left-color:#555;
       font-size: 1rem;
       color: #2C2E47;
-      width: 250px;
+      width: 100%;
     }
 
 	input:required {border-left-color: #E07A5F;}
@@ -53,7 +53,7 @@ form {
   
     input[type=submit] {
       border: none;
-	  width: 250px;
+	  width: 100%;
       text-align: center;
       background-color: #3D405B;
       color: white;
