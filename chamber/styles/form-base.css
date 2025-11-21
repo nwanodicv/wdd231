@@ -43,11 +43,7 @@ form {
       width: 250px;
     }
 
-	input[type=radio] {
-		margin-left: 10px;
-	}
-
-	input:required {border-left-color: #d70000;}
+	input:required {border-left-color: #E07A5F;}
     input:focus {border-left-color: black; outline:none;}
     input:required:valid{border-left-color: green;}
 
@@ -57,7 +53,7 @@ form {
   
     input[type=submit] {
       border: none;
-	  width: 23%;
+	  width: 250px;
       text-align: center;
       background-color: #3D405B;
       color: white;
