@@ -15,7 +15,8 @@
       <link rel="stylesheet" href="styles/normalize.css">
       <link rel="stylesheet" href="styles/index.css">
       <link rel="stylesheet" href="styles/index-large.css">
-      <link rel="stylesheet" href="styles/form.css">
+      <link rel="stylesheet" href="styles/form-base.css">
+      <link rel="stylesheet" href="styles/form-large.css">
   
       <!-- Script Here -->
       <script src="scripts/navigation.js" defer></script>
@@ -62,6 +63,42 @@
     <main>
         <h1>Home</h1>
         <!------------------- FORM SECTION-------------------->
+        <form>
+            <label for="firstName">First Name</label>
+            <input name="firstname" id="firstName" type="text" autocomplete="given-name" required>
+
+            <label for="lastName">Last Name</label>
+            <input name="lastName" id="lastName" type="text" autocomplete="family-name" required>
+
+            <label for="organizationalTitle">Organizational Title</label>
+            <input name="organizationalTitle" id="organizationalTitle" type="text" autocomplete="organizational-title" required>
+
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email" autocomplete="value" required>
+
+            <label for="phone">Phone</label>
+            <input name="phone" id="phone" type="telephone" autocomplete="value" required>
+
+            <label for="businessName">Business Name</label>
+            <input name="businessName" id="businessName" type="text" autocomplete="business-name" required>
+
+            <label for="membershipLevel">Membership Level</label>
+            <select>
+                <option value="Select"></option>
+                <option>Non Profitable (NP)</option>
+                <option>Bronze</option>
+                <option>Silver</option>
+                <option>Gold</option>
+            </select>
+
+            <label for="businessDescription">Business description</label>
+            <input name="businessDescription" id="businessDescription" type="text" autocomplete="business-description" required>
+
+            <label for="timestamp">Timestamp</label>
+            <input name="timestamp" id="timestamp" type="date" autocomplete="time-stamp" required>
+
+            <input type="submit" value="Join Chamber">
+        </form>
         <form method="get" action="thankyou.html" class="form" id="reviewForm" novalidate>
             <fieldset>
               <legend>Product Review</legend>

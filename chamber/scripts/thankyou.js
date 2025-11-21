@@ -1,8 +1,8 @@
-const getString = window.location.search;
-console.log(getString);
+//const getString = window.location.search;
+//console.log(getString);
 
 myInfo = new URLSearchParams(window.location.search);
-console.log(myInfo);
+//console.log(myInfo);
 
 document.querySelector('#results').innerHTML = `
 <p>Your rating is: ${myInfo.get('rating')} </p>
