@@ -81,6 +81,10 @@ form {
       border: 1px solid #ccc;
       border-radius: 6px;
     }
+
+    fieldset > button {
+      color:#2C2E47;
+    }
 }
 
 .membership-levels {
