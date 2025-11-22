@@ -243,6 +243,15 @@ aside a {
     margin-left: 5rem;
 }
 
+/***************** HOME PAGE *************/
+.results {
+    padding: 0 10px;
+    color:#2C2E47;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
 /***************** SPOTLIGHT ******************/
 .spotlight aside {
     margin-bottom: 20px;

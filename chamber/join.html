@@ -75,7 +75,7 @@
             
 
             <label for="organizationalTitle">Organizational Title
-                <input name="organizationalTitle" id="organizationalTitle" type="text" autocomplete="organizational-title" title="Organizational Title" required>
+                <input name="organizationalTitle" id="organizationalTitle" type="text" autocomplete="organizational-title" title="At least 7 characters. Letters, hyphens, and spaces only" required pattern="[A-Za-z\- ]{7,}">
             </label>
             
 
@@ -90,11 +90,11 @@
             
 
             <label for="businessName">Business Name
-                <input name="businessName" id="businessName" type="text" autocomplete="business-name" required>
+                <input name="businessName" id="businessName" type="text" autocomplete="business-name" title="Your Business Name" required>
             </label>
             
             <h3>Select Membership Level</h3>
-            <label><input name="MembershipLevel" type="radio" value="Non Profitable Organization" checked>Non Profitable</label>
+            <label><input name="MembershipLevel" type="radio" value="Non Profitable Organization">Non Profitable</label>
             <label><input name="MembershipLevel" type="radio" value="Bronze">Bronze</label>
             <label><input name="MembershipLevel" type="radio" value="Silver">Silver</label>
             <label><input name="MembershipLevel" type="radio" value="Gold">Gold
@@ -102,7 +102,7 @@
             
 
             <label for="businessDescription" class="busDes">Business description
-                <input name="businessDescription" id="businessDescription" type="text" autocomplete="business-description" required>
+                <textarea name="businessDescription" id="businessDescription" type="text" autocomplete="business-description" title="Your Business Description" required placeholder="Enter Text Here..."></textarea>
             </label>
            
 
