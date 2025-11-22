@@ -6,7 +6,7 @@ console.log(myInfo);
 
 document.querySelector('#results').innerHTML = `
 <p><strong>Your First Name:</strong> ${myInfo.get('firstname')} </p>
-<p><strong>Your Last Name: </strong>${myInfo.get('lastName')} </p>
+<p><strong>Your Last Name: </strong>${myInfo.get('lastName')}</p>
 <p><strong>Organizational Title:</strong> ${myInfo.get('organizationalTitle')} </p>
 <p><strong>Your Email:</strong> ${myInfo.get('email')} </p>
 <p><strong>Phone Number:</strong> ${myInfo.get('phone')} </p>

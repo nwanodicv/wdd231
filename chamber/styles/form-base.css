@@ -82,3 +82,53 @@ form {
       border-radius: 6px;
     }
 }
+
+.membership-levels {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* Animation on boxes */
+.level-box {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 2s ease-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover transition effect */
+.level-box:hover {
+    transform: translateY(0) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Fade-up keyframe */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+dialog {
+    padding: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+dialog[open] {
+    opacity: 1;
+    transform: scale(1);
+}
+
+dialog::backdrop {
+    background: rgba(0,0,0,0);
+    transition: background 0.25s ease;
+}
+
+dialog[open]::backdrop {
+    background: rgba(0,0,0,0.5);
+}
