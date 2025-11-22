@@ -7,12 +7,16 @@ html {
 	-ms-text-size-adjust: 100%;
 }
 
-h3 {
-      font-size: .9rem;
-      color: #2C2E47;
-      margin: 0.2rem 10px .2rem 0;
-      border-bottom: 1px solid #eee;
-    }
+h3{
+  font-size: .9rem;
+  color: #2C2E47;
+  margin: 0.2rem 10px .2rem 0;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #2C2E47;
+}
 
 form {
 	display: block;
@@ -44,9 +48,9 @@ form {
       width: 100%;
     }
 
-	  textarea, input:required {border-left-color: #E07A5F;}
-    textarea, input:focus {border-left-color: #2C2E47; outline:none;}
-    textarea, input:required:valid{border-left-color: green;}
+	  input:required {border-left-color: #E07A5F;}
+    input:focus {border-left-color: #2C2E47; outline:none;}
+    input:required:valid{border-left-color: green;}
 
     textarea:required {border-left-color: #E07A5F;}
     textarea:focus {border-left-color:#2C2E47; outline:none;}
@@ -58,7 +62,7 @@ form {
   
     input[type=submit] {
       border: none;
-	  width: 100%;
+	    width: 100%;
       text-align: center;
       background-color: #3D405B;
       color: white;
@@ -68,5 +72,13 @@ form {
       font-size: 1.2rem;
       -webkit-appearance: none;
       appearance: none;
+      cursor: pointer;
+    }
+
+    fieldset {
+      margin: 20px 10px 20px 0;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-radius: 6px;
     }
 }

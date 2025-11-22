@@ -21,8 +21,7 @@
       <!-- Script Here -->
       <script src="scripts/navigation.js" defer></script>
       <script src="scripts/date.js" defer></script>
-      <script src="scripts/weather.js" defer></script>
-      <script src="scripts/spotlight.js" defer></script>
+      <script src="scripts/join.js" defer></script>
   
     <!-- Font Awesome (icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -64,52 +63,110 @@
         <h1>Join</h1>
         <!------------------- FORM SECTION-------------------->
         <form method="GET" action="thankyou.html">
-            <label for="firstName">First Name
+            <aside>
+                <h2>Membership Application Form</h2>
+                <label for="firstName">First Name
                 <input name="firstname" id="firstName" type="text" autocomplete="given-name" title="Your First Name" required>
-            </label>
+                </label>
             
 
-            <label for="lastName">Last Name
+                <label for="lastName">Last Name
                 <input name="lastName" id="lastName" type="text" autocomplete="family-name" title="Your Last Name" required>
-            </label>
+                </label>
             
 
-            <label for="organizationalTitle">Organizational Title
+                <label for="organizationalTitle">Organizational Title
                 <input name="organizationalTitle" id="organizationalTitle" type="text" autocomplete="organizational-title" title="At least 7 characters. Letters, hyphens, and spaces only" required pattern="[A-Za-z\- ]{7,}">
-            </label>
+                </label>
             
 
-            <label for="email">Email
+                <label for="email">Email
                 <input name="email" id="email" type="email" autocomplete="email" title="Your Email" required placeholder="james@gmail.com">
-            </label>
+                </label>
             
 
-            <label for="phone">Phone
+                <label for="phone">Phone
                 <input name="phone" id="phone" type="telephone" autocomplete="Phone-number" title="Your Phone Number" required placeholder="+234-807-339-0964">
-            </label>
+                </label>
             
 
-            <label for="businessName">Business Name
+                <label for="businessName">Business Name
                 <input name="businessName" id="businessName" type="text" autocomplete="business-name" title="Your Business Name" required>
-            </label>
-            
-            <h3>Select Membership Level</h3>
-            <label><input name="MembershipLevel" type="radio" value="Non Profitable Organization">Non Profitable</label>
-            <label><input name="MembershipLevel" type="radio" value="Bronze">Bronze</label>
-            <label><input name="MembershipLevel" type="radio" value="Silver">Silver</label>
-            <label><input name="MembershipLevel" type="radio" value="Gold">Gold
-            </label>
-            
+                </label>
 
-            <label for="businessDescription" class="busDes">Business description
+                <label for="businessDescription" class="busDes">Business description
                 <textarea name="businessDescription" id="businessDescription" type="text" autocomplete="business-description" title="Your Business Description" required placeholder="Enter Text Here..."></textarea>
-            </label>
-           
-
-            <label for="timestamp">Timestamp
-                <input name="timestamp" id="timestamp" type="date" autocomplete="time-stamp" required>
-            </label>
+                </label>
             
+
+                <label for="timestamp">Timestamp
+                <input name="timestamp" id="timestamp" type="date" autocomplete="time-stamp" required>
+                </label>
+            </aside>
+            
+            <aside>
+                <h2>Membership Levels</h2>
+                <section class="membership-levels">
+            
+                    <!-- Non Profit -->
+                    <fieldset class="level-box">
+                        <input type="radio" id="nonprofit" name="membership" value="Non Profit" required>
+                        <label>
+                            <h3>Non Profit Membership Level</h3>
+                        </label>
+            
+                        <button id="open-btn">Learn More</button>
+                        <dialog id="dialogbox">
+                            <p>Non profitable Organization is free</p>
+                            <button id="close-btn">Close</button>
+                        </dialog>
+                    </fieldset>
+            
+                    <!-- Bronze -->
+                    <fieldset class="level-box">
+                        
+                        <label>
+                            <input type="radio" id="bronze" name="membership" value="Bronze" required>
+                            <h3>Bronze Membership Level</h3>
+                        </label>
+            
+                        <button id="bronze-open-btn">Learn More</button>
+                        <dialog id="bronze-dialogbox">
+                            <p>Bronze Membership has a small fee.</p>
+                            <button id="bronze-close-btn">Close</button>
+                        </dialog>
+                    </fieldset>
+            
+                    <!-- Silver -->
+                    <fieldset class="level-box">
+                        <input type="radio" id="silver" name="membership" value="Silver" required>
+                        <label>
+                            <h3>Silver Membership Level</h3>
+                        </label>
+            
+                        <button id="silver-open-btn">Learn More</button>
+                        <dialog id="silver-dialogbox">
+                            <p>Silver Membership includes more benefits.</p>
+                            <button id="silver-close-btn">Close</button>
+                        </dialog>
+                    </fieldset>
+
+                    <!-- Gold -->
+                    <fieldset class="level-box">
+                        <input type="radio" id="Gold" name="membership" value="Gold" required>
+                        <label>
+                            <h3>Gold Membership Level</h3>
+                        </label>
+            
+                        <button id="gold-open-btn">Learn More</button>
+                        <dialog id="gold-dialogbox">
+                            <p>Gold Membership includes higher benefits.</p>
+                            <button id="gold-close-btn">Close</button>
+                        </dialog>
+                    </fieldset>
+            
+                </section>
+            </aside>
 
             <input type="submit" value="Join Chamber">
         </form>
