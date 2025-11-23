@@ -34,6 +34,7 @@ form {
     input[type=date],
     input[type=telephone],
     input[type=email],
+    input[type=checked],
     textarea[type=text],
     select {
       display: block;
