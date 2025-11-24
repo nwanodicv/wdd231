@@ -1,0 +1,16 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f7fa;
+      color: #222;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #228B22;
+    }
+    .color-sample {
+      width: 140px;
+      height: 40px;
+      border: 1px solid #222;
+      margin-bottom: 5px;
+    }
