@@ -7,7 +7,7 @@ Deep Slate Blue: #2C2E47
 Hamburger open icon: \2630
 Hamburger closing icon: \00D7
 */
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 /***************** Site Wide *************/
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -98,8 +98,6 @@ header span {
 }
 
 /***************** MAIN PAGE *************/
-
-
 h1 {
     margin-left: 10px;
     color:#2C2E47;
@@ -112,7 +110,7 @@ figure {
     margin-bottom: 10px;
     border: solid #999;
     border-radius: 8px;
-    height: auto;
+    
 
     display: grid;
     grid-template-areas: 
@@ -170,8 +168,6 @@ figure img:hover {
 }
 
 /***********  Days Between Dates *************/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
-
 .label {
 	width: 175px;
 	font-weight: bold;
@@ -184,7 +180,6 @@ figure img:hover {
 	font-size: smaller;
     color:#2C2E47;
 }
-
 
 /***************** FOOTER *************/
 footer {

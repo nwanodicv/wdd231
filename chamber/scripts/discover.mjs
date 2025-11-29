@@ -12,7 +12,6 @@ dialogClose.addEventListener('click', () => {
 })
 
 const displayAllCards = document.querySelector('#js-card-container')
-
 function displayCompanyCards(dcompanies){
     dcompanies.forEach((compy) => {
         /************GENERATE HTML ELEMENTS AND THE CONTENTS ******************/
