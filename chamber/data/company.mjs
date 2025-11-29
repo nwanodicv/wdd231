@@ -9,7 +9,8 @@ export const dcompanies = [
       "zip": "320107"
     },
     "cost": { "currency": "NGN", "amount": 15000 },
-    "photo": "../images/frankbryan.webp"
+    "photo": "../images/frankbryan.webp",
+    "info": "Learn More"
   },
   {
     "name": "Greenfield Tech Solutions",
@@ -21,7 +22,8 @@ export const dcompanies = [
       "zip": "100001"
     },
     "cost": { "currency": "NGN", "amount": 25000 },
-    "photo": "../images/Greenfield.webp"
+    "photo": "../images/Greenfield.webp",
+    "info": "Learn More"
   },
   {
     "name": "Sunrise Organic Farms",
@@ -33,7 +35,8 @@ export const dcompanies = [
       "zip": "200002"
     },
     "cost": { "currency": "NGN", "amount": 8000 },
-    "photo": "../images/sunrise-farm.webp"
+    "photo": "../images/sunrise-farm.webp",
+    "info": "Learn More"
   },
   {
     "name": "BlueWave Marketing Agency",
@@ -45,7 +48,8 @@ export const dcompanies = [
       "zip": "500003"
     },
     "cost": { "currency": "NGN", "amount": 20000 },
-    "photo": "../images/BlueWave.webp"
+    "photo": "../images/BlueWave.webp",
+    "info": "Learn More"
   },
   {
     "name": "Harmony Wellness Center",
@@ -57,7 +61,8 @@ export const dcompanies = [
       "zip": "400004"
     },
     "cost": { "currency": "NGN", "amount": 12000 },
-    "photo": "../images/Harmony.webp"
+    "photo": "../images/Harmony.webp",
+    "info": "Learn More"
   },
   {
     "name": "Apex Financial Advisors",
@@ -69,7 +74,8 @@ export const dcompanies = [
       "zip": "900005"
     },
     "cost": { "currency": "NGN", "amount": 30000 },
-    "photo": "../images/Apex.webp"
+    "photo": "../images/Apex.webp",
+    "info": "Learn More"
   },
   {
     "name": "Culinary Delights Catering",
@@ -81,7 +87,8 @@ export const dcompanies = [
       "zip": "700006"
     },
     "cost": { "currency": "NGN", "amount": 10000 },
-    "photo": "../images/Culinary.webp"
+    "photo": "../images/Culinary.webp",
+    "info": "Learn More"
   },
   {
     "name": "BrightPath Education Center",
@@ -93,7 +100,8 @@ export const dcompanies = [
       "zip": "700010"
     },
     "cost": { "currency": "NGN", "amount": 6000 },
-    "photo": "../images/brightPath-education.webp"
+    "photo": "../images/brightPath-education.webp",
+    "info": "Learn More"
   },
   {
     "name": "Metro Auto Services",
@@ -105,7 +113,8 @@ export const dcompanies = [
       "zip": "100282"
     },
     "cost": { "currency": "NGN", "amount": 7000 },
-    "photo": "../images/metro-auto.webp"
+    "photo": "../images/metro-auto.webp",
+    "info": "Learn More"
   },
   {
     "name": "Urban Threads Fashion Co.",
@@ -117,7 +126,8 @@ export const dcompanies = [
       "zip": "430001"
     },
     "cost": { "currency": "NGN", "amount": 5000 },
-    "photo": "../images/urban-threads.webp"
+    "photo": "../images/urban-threads.webp",
+    "info": "Learn More"
   },
   {
     "name": "Peak Fitness Studio",
@@ -129,7 +139,8 @@ export const dcompanies = [
       "zip": "101233"
     },
     "cost": { "currency": "NGN", "amount": 9000 },
-    "photo": "../images/peak-fit-studio.webp"
+    "photo": "../images/peak-fit-studio.webp",
+    "info": "Learn More"
   },
   {
     "name": "Nexa Home Interiors",
@@ -141,7 +152,8 @@ export const dcompanies = [
       "zip": "300005"
     },
     "cost": { "currency": "NGN", "amount": 18000 },
-    "photo": "../images/nexa-home.webp"
+    "photo": "../images/nexa-home.webp",
+    "info": "Learn More"
   },
   {
     "name": "SafeHands Medical Supplies",
@@ -153,7 +165,8 @@ export const dcompanies = [
       "zip": "110002"
     },
     "cost": { "currency": "NGN", "amount": 14000 },
-    "photo": "../images/safehands.webp"
+    "photo": "../images/safehands.webp",
+    "info": "Learn More"
   },
   {
     "name": "Coastline Travel Agency",
@@ -165,7 +178,8 @@ export const dcompanies = [
       "zip": "540001"
     },
     "cost": { "currency": "NGN", "amount": 22000 },
-    "photo": "../images/coastline-tours.webp"
+    "photo": "../images/coastline-tours.webp",
+    "info": "Learn More"
   },
   {
     "name": "BrightEyes Optical",
@@ -177,7 +191,8 @@ export const dcompanies = [
       "zip": "240002"
     },
     "cost": { "currency": "NGN", "amount": 6500 },
-    "photo": "../images/bright-eye-optical.webp"
+    "photo": "../images/bright-eye-optical.webp",
+    "info": "Learn More"
   }
 ]
 

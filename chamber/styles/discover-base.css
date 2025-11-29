@@ -105,13 +105,14 @@ h1 {
     color:#2C2E47;
 }
 
-section {
+figure {
     display: block;
     margin-left: 10px;
     background-color: #eee;
     margin-bottom: 10px;
     border: solid #999;
     border-radius: 8px;
+    height: auto;
 
     display: grid;
     grid-template-areas: 
@@ -121,19 +122,20 @@ section {
     "location"
 }
 
-section img {
+figure img {
     width: 100%;
+    
     grid-area: photograph;
 }
 
-section img:hover {
+figure img:hover {
     width: 350px;
 }
 
-section 
+figure 
 h2,
 address,
-p {
+p{
     margin: 1rem 10px;
 }
 
@@ -143,20 +145,46 @@ h2 {
     color:#2C2E47;
 }
 
-section p {
+figure p {
     grid-area: description;
     color:#2C2E47;
 }
 
-section address {
+figure address {
     grid-area: location;
     color:#2C2E47;
 }
 
+figure button {
+    margin: 0.2rem;
+    color:#2C2E47;
+}
 
+h3 {
+	font-size: 1.5rem;
+	color: #2C2E47;
+}
 
+/* hover effect */
+img:hover {
+	box-shadow: 0 0 50px #2C2E47;
+}
 
+/***********  Days Between Dates *************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 
+.label {
+	width: 175px;
+	font-weight: bold;
+	color:#2C2E47;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.smaller {
+	font-size: smaller;
+    color:#2C2E47;
+}
 
 
 /***************** FOOTER *************/
