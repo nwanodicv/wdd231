@@ -115,7 +115,7 @@ header span {
     bottom: 20%;            /* Move up from bottom */
     left: 50%;
     transform: translateX(-50%);
-    opacity: 85%;
+    opacity: 80%;
     background: #2C2E47;
     color: white;
     padding: 0.8rem 1.6rem;
@@ -132,6 +132,7 @@ header span {
     left: 50%;
     transform: translateX(-50%);
     background-color: #2C2E47;
+    opacity: 80%;
     color: white;
     padding: 0.8rem 1.6rem;
     font-size: 0.7rem;

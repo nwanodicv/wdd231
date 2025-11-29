@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chamber Directory Page</title>
-    <meta name="description" content="The Ogwashi-uku Chamber of Commerce directory page. The source hub for businesses in Ogwashi-uku and its environ. We provide information on local events, business listings, and networking opportunities to foster economic growth in the community."/>
+    <title>Chamber of Commerce Discover-page</title>
+    <meta name="description" content="The Ogwashi-uku chamber of commerce promote the Ogwashi-uku businesses in Ogwashi-uku Chamber of Commerce. The Chamber provide factual and representative information about the Ogwashi-uku including demographics and features that appeals to prospective chamber members and visitors."/>
     <meta name="author" content="Chimezie Victor Stephen"/>
     <meta name="robots" content="index, follow">
 
@@ -13,44 +13,42 @@
   
     <!-- Style Sheet Here -->
       <link rel="stylesheet" href="styles/normalize.css">
-      <link rel="stylesheet" href="styles/base.css">
-      <link rel="stylesheet" href="styles/large.css">
+      <link rel="stylesheet" href="styles/discover-base.css">
+      <link rel="stylesheet" href="styles/discover-medium.css">
+      <link rel="stylesheet" href="styles/discover-large.css">
   
       <!-- Script Here -->
       <script src="scripts/navigation.js" defer></script>
       <script src="scripts/date.js" defer></script>
-      <script src="scripts/course.js" defer></script>
-      <script src="scripts/directory.js" defer></script>
-  
+      <script src="scripts/discover.mjs" type="module"></script>
+      
     <!-- Font Awesome (icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="canonical" href="https://yourdomain.com/">
   
     <!--Open Graph-->
-    <meta property="og:title" content="Ogwashi-uku Chamber of Commerce director page">
-    <meta property="og:description" content=" The Ogwashi-uku Chamber of Commerce directory page. The source hub for businesses in Ogwashi-uku and its environ. We provide information on local events, business listings, and networking opportunities to foster economic growth in the community. We improve member engagement by providing valuable resources and networking opportunities.
-    Attract new businesses and encourage economic development in the community.
-    Improve the visibility and reputation of the chamber as a trusted authority in local business matters. Quickly join us to connect with local entrepreneurs and stay updated on the latest happenings in Ogwashi-uku.">
+    <meta property="og:title" content="Ogwashi-uku Chamber of Commerce Discover page">
+    <meta property="og:description" content=" The Ogwashi-uku chamber of commerce promote the Ogwashi-uku businesses in Ogwashi-uku Chamber of Commerce. The Chamber provide factual and representative information about the Ogwashi-uku including demographics and features that appeals to prospective chamber members and visitors.">
     <meta property="og:image" content="images/occ_favicon.svg">
     <meta property="og:url" content="https://Chimezie-homepage.com/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Ogwashi-uku Chamber of Commerce">
 
     <!--------------FAVICON LINK-------------->
-    <link rel="icon" href="images/linkedin.svg" type="image/x-icon" alt="Favicon">
+    <link rel="icon" href="images/occ_favicon.svg" type="image/x-icon" alt="Favicon">
 </head>
 
 <body>
     <header>
-        <a href="https://nwanodicv.github.io/wdd231/chamber/index.html"><img src="images/occ_favicon.svg" alt="Site Logo" width="512" height="512" loading="lazy"></a>
+        <img src="images/occ_favicon.svg" alt="Site Logo" width="512" height="512" loading="lazy">
         <span>Ogwashi-uku Chamber of Commerce</span>
         <!------------------- HAMBURGER ------------------------->
         <button id="ham-btn" class="hamburger" aria-label="Hamburger"></button>
 
         <nav id="nav-links" class="nav-links">
             <ul>
-                <li class="home-page"><a href="https://nwanodicv.github.io/wdd231/chamber/index.html" aria-label="Home">Home</a></li>
-                <li class="chamber-page"><a href="" aria-label="Directory">Directory</a></li>
+                <li class="home-page"><a href="https://nwanodicv.github.io/wdd231/chamber" aria-label="Home">Home</a></li>
+                <li class="chamber-page"><a href="https://nwanodicv.github.io/wdd231/chamber/directory.html" aria-label="Directory">Directory</a></li>
                 <li class="join-page"><a href="https://nwanodicv.github.io/wdd231/chamber/join.html" aria-label="Join">Join</a></li>
                 <li class="discover-page"><a href="https://nwanodicv.github.io/wdd231/chamber/discover.html" aria-label="Discover">Discover</a></li>
                 <img src="images/circle-half.svg" alt="Dark-light Mode" width="512" height="512" loading="lazy">
@@ -59,18 +57,10 @@
         
     </header>
     <main>
-        <h1>Directory</h1>
-        <!--------------------- DIRECTORY SECTION ---------------------------->
-        <section class="directory-section">
-            <div class="view-buttons">
-                
-                <button id="grid-view-btn" class="grid-view-btn" aria-label="Grid View"></button>
-                
-                <button id="list-view-btn" class="list-view-btn" aria-label="List View"></button>
-            </div>
-            <div id="members-container" class="members-grid"></div>
-            <!-- Member cards will be dynamically inserted here -->
-        </section>
+        <h1>Discover</h1>
+        <!---------DISPLAY CARD HERE--------------->
+        <aside class="allCards" id="js-card-container"></aside>
+        
     </main>
     <footer>
         <div>

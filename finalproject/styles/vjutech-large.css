@@ -1,0 +1,36 @@
+@media only screen and (min-width: 38rem) {
+    header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+    }
+    /********* HEADER SECTION ********/
+    header {
+        grid-template-columns: 24px auto auto auto;
+        width: auto;
+    }
+
+    /********* HAMBURGER ********/
+    .hamburger {
+        display: none;
+    }
+
+    /********* NAVIGATION MENU ********/
+    .nav-links {
+        display: block;
+        border-bottom: none;
+    }
+
+    .nav-links ul {
+        display: flex;
+    }
+
+    .nav-links a {
+        border: none;
+        padding: 14px;
+        width: auto;
+    }
+
+    aside {
+        padding-left:30rem;
+    }
+}
