@@ -124,7 +124,6 @@ figure {
 
 figure img {
     width: 100%;
-    
     grid-area: photograph;
 }
 
@@ -166,7 +165,7 @@ h3 {
 }
 
 /* hover effect */
-img:hover {
+figure img:hover {
 	box-shadow: 0 0 50px #2C2E47;
 }
 
