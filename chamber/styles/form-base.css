@@ -81,6 +81,7 @@ form {
       background-color: #eee;
       border: 1px solid #ccc;
       border-radius: 6px;
+      width: 100%;
     }
 
 }
