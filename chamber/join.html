@@ -108,60 +108,49 @@
             
                     <!-- Non Profit -->
                     <fieldset class="level-box">
-                        <input type="radio" id="nonprofit" name="membership" value="Non Profit" required>
                         <label>
-                            <h3>Non Profit Membership Level</h3>
+                            <input type="radio" id="nonprofit" name="membership" value="Non Profit" required>
+                            <strong>Non Profit Membership Level</strong>
                         </label>
-            
-                        <button id="open-btn">Learn More</button>
-                        <dialog id="dialogbox">
-                            <p>Non profitable Organization is free</p>
-                            <button id="close-btn">Close</button>
-                        </dialog>
                     </fieldset>
             
                     <!-- Bronze -->
                     <fieldset class="level-box">
-                        
                         <label>
                             <input type="radio" id="bronze" name="membership" value="Bronze" required>
-                            <h3>Bronze Membership Level</h3>
+                            <strong>Bronze Membership Level</strong>
                         </label>
-            
-                        <button id="bronze-open-btn">Learn More</button>
-                        <dialog id="bronze-dialogbox">
-                            <p>Bronze Membership has a small fee.</p>
-                            <button id="bronze-close-btn">Close</button>
-                        </dialog>
                     </fieldset>
             
                     <!-- Silver -->
                     <fieldset class="level-box">
-                        <input type="radio" id="silver" name="membership" value="Silver" required>
                         <label>
-                            <h3>Silver Membership Level</h3>
+                            <input type="radio" id="silver" name="membership" value="Silver" required>
+                            <strong>Silver Membership Level</strong>
                         </label>
-            
-                        <button id="silver-open-btn">Learn More</button>
-                        <dialog id="silver-dialogbox">
-                            <p>Silver Membership includes more benefits.</p>
-                            <button id="silver-close-btn">Close</button>
-                        </dialog>
                     </fieldset>
-
+                    
                     <!-- Gold -->
                     <fieldset class="level-box">
-                        <input type="radio" id="Gold" name="membership" value="Gold" required>
                         <label>
-                            <h3>Gold Membership Level</h3>
+                            <input type="radio" id="Gold" name="membership" value="Gold" required>
+                            <strong>Gold Membership Level</strong>
                         </label>
-            
-                        <button id="gold-open-btn">Learn More</button>
-                        <dialog id="gold-dialogbox">
-                            <p>Gold Membership includes higher benefits.</p>
-                            <button id="gold-close-btn">Close</button>
-                        </dialog>
                     </fieldset>
+                    <!---------- DIALOGBOX SECTION---------->
+                    <button class="open-btn" id="open-btn">Learn More</button>
+                        <dialog id="dialogbox">
+                            <h2>Detailed Information</h2>
+                            <h3>Non Profitable Organization</h3>
+                            <p>A Non profitable Organization is free</p>
+                            <h3>Bronze Membership Level</h3>
+                            <p>Bronze Membership has a small fee.</p>
+                            <h3>Silver Membership Level</h3>
+                            <p>Silver Membership includes more benefits.</p>
+                            <h3>Gold Membership Level</h3>
+                            <p>Gold Membership includes higher benefits.</p>
+                            <button id="close-btn">Close</button>
+                        </dialog>
             
                 </section>
             </aside>

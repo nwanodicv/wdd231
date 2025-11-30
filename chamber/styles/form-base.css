@@ -76,16 +76,13 @@ form {
       cursor: pointer;
     }
 
-    fieldset {
+    fieldset{
       margin: 20px 10px 20px 0;
       background-color: #eee;
       border: 1px solid #ccc;
       border-radius: 6px;
     }
 
-    fieldset > button {
-      color:#2C2E47;
-    }
 }
 
 .membership-levels {
@@ -115,6 +112,14 @@ form {
     }
 }
 
+.open-btn {
+  height: 2.5rem;
+  color:#2C2E47;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
 dialog {
     padding: 1.5rem;
     border: none;
@@ -122,6 +127,17 @@ dialog {
     opacity: 0;
     transform: scale(0.8);
     transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+dialog h2 {
+  font-size: 1.5rem;
+  border-bottom: 0.5px solid #2C2E47;
+}
+
+dialog p {
+  color:#2C2E47;
+  font-size: 0.8rem;
+  border-bottom: 4px solid #eee;
 }
 
 dialog[open] {
