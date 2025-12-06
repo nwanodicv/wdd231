@@ -19,9 +19,10 @@
     <link rel="stylesheet" href="styles/vjutech-navigation.css">
 
     <!--------------------SCRIPTS----------------------->
+    <script src="https://js.paystack.co/v1/inline.js"></script>
     <script src="scripts/vjutech-date.js" defer></script>
     <script src="scripts/vjutech-navigation.js" defer></script>
-    <script src="scripts/vjutech.js" defer></script>
+    <script src="scripts/checkout.js" defer></script>
 
     <!-- Font Awesome (icons) -->
     <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -62,49 +63,29 @@
 
     </header>
     <main>
-        <h1>Home</h1>
+        <h1>Checkout</h1>
+        <aside id="checkout-section">
+            <h2>Your Order Summary</h2>
         
-        <section class="filter-bar" id="filter-bar">
-            <input type="text" id="searchBox" placeholder="Search products...">
-          
-            <select class="categoryFilter" id="categoryFilter">
-              <option value="all">All Categories</option>
-              <option value="laptop">Laptop</option>
-              <option value="camera">Camera</option>
-              <option value="phone">Phone</option>
-              <option value="accessory">Accessory</option>
-            </select>
-        </section>
+            <aside id="checkout-items"></aside>
+        </aside>
 
-        <section class="products-grid" id="products-grid">
-        </section>
+        <aside>
+            <p><strong>Total Amount:</strong> $<span id="checkout-total"></span></p>
+        </aside>
+
+        <h2>Select Payment Method</h2>
+        <button onclick="payWithPaystack()">Pay with Card (Paystack)</button>
+        <button onclick="showBankDetails()">Bank Transfer</button>
+        <button onclick="showDeliveryInfo()">Pay on Delivery</button>
+    
+        <div id="extra-info"></div>
+        <aside>
+            <button onclick="window.location.href='cart.html'">← Back to your Cart</button>
+        </aside>
+
     </main>
-    <footer>
-        <div>
-            <h3>Contact Information</h3>
-            <p>6 Holy Family</p>
-            <p>Ogwashi-uku 320107, Anioch LGA</p>
-            <p>Delta State, Nigeria.</p>
-            <p>victornwanodi@gmail.com</p>
-            <p>(234) 8073-390967</p>
-        </div>
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/chimezie-nwanodi-4456aa27a/" target="blank" aria-label="LinkedIn Icon"><img src="images/linkedin.svg" alt="LinkedIn Icon" width="16" height="16" loading="lazy">
-            </a>
-            <a href="https://github.com/" target="blank" aria-label="Github Icon"><img src="images/github.svg" alt="Github Icon" width="16" height="16" loading="lazy">
-            </a>
-            <a href="" target="blank" aria-label="Twitter Icon"><img src="images/twitter-x.svg" alt="Twiter Icon" width="16" height="16" loading="lazy">
-            </a>
-        </div>
-        <div>
-            <p>WDD231 Final Project</p>
-            <p>Chimezie Victor Stephen</p>
-            <p>
-                &copy; 2025 | VjuTech Shopping | Nigeria
-            </p>
-            <p id="last-modification"></p>
-        </div>
-    </footer>
+    <footer></footer>
     
 </body>
 </html>

@@ -1,0 +1,18 @@
+@media only screen and (min-width: 38rem) {
+    section > aside {
+        display: grid;
+        grid-template-areas: 
+        "photograph name"
+        "photograph category"
+        "photograph price"
+        "photograph quantity"
+        "photograph description"
+        "photograph button";
+        column-gap: 10px;
+    }
+
+    aside > .product-img {
+        width: 300px;
+        height: 15rem;
+    }
+}

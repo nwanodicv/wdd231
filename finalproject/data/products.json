@@ -1,8 +1,11 @@
+
 {
-    "products":[
+  "products":[
+
     {
       "id": 1,
       "name": "Smart Glasses AR Vision",
+      "image": "images/ar-smartglasses.webp",
       "category": "Wearable",
       "price": 299.99,
       "description": "Lightweight augmented reality smart glasses with voice assistant support."
@@ -10,6 +13,7 @@
     {
       "id": 2,
       "name": "Noise-Cancelling Pro Headphones",
+      "image": "images/noise-councelling-headset.webp",
       "category": "Audio",
       "price": 249.99,
       "description": "Premium ANC headphones with 40-hour battery life and deep bass."
@@ -17,6 +21,7 @@
     {
       "id": 3,
       "name": "Ultra 4K Compact Drone",
+      "image": "images/ultra-4k-compact-drone.webp",
       "category": "Drones",
       "price": 499.00,
       "description": "Portable drone equipped with a 4K stabilized camera and long-range control."
@@ -24,6 +29,7 @@
     {
       "id": 4,
       "name": "Smartwatch Series X2",
+      "image": "images/smartwatch-series-x2.webp",
       "category": "Wearable",
       "price": 329.00,
       "description": "Advanced smartwatch with ECG monitor and GPS tracking."
@@ -31,6 +37,7 @@
     {
       "id": 5,
       "name": "Foldable Bluetooth Keyboard",
+      "image": "images/foldable-bluetooth-keyboard.webp",
       "category": "Accessories",
       "price": 49.99,
       "description": "Portable foldable keyboard ideal for tablets and mobile devices."
@@ -38,6 +45,7 @@
     {
       "id": 6,
       "name": "HD1080p Smart Home Camera",
+      "image": "images/hd1080p-smart-home-camera.webp",
       "category": "Smart Home",
       "price": 89.99,
       "description": "AI-powered security camera with night vision and motion alerts."
@@ -45,6 +53,7 @@
     {
       "id": 7,
       "name": "Portable Mini Projector",
+      "image": "images/portable-mini-projector.webp",
       "category": "Entertainment",
       "price": 159.99,
       "description": "Pocket-sized projector supporting 1080p input with built-in speakers."
@@ -52,6 +61,7 @@
     {
       "id": 8,
       "name": "Wireless Charging Pad Pro",
+      "image": "images/wireless-charging-pad.webp",
       "category": "Accessories",
       "price": 39.99,
       "description": "Fast 15W wireless charger for smartphones and earbuds."
@@ -59,6 +69,7 @@
     {
       "id": 9,
       "name": "Smart LED Color Strip",
+      "image": "images/smart-led-color-trip.webp",
       "category": "Smart Home",
       "price": 24.99,
       "description": "App-controlled RGB LED strip with music sync capability."
@@ -66,6 +77,7 @@
     {
       "id": 10,
       "name": "VR Gaming Headset X",
+      "image": "images/vr-gaming-headset.webp",
       "category": "Gaming",
       "price": 249.00,
       "description": "Immersive virtual reality headset compatible with PC and console."
@@ -73,6 +85,7 @@
     {
       "id": 11,
       "name": "Bluetooth Tracking Tag",
+      "image": "images/bluetooth-tracking-tag.webp",
       "category": "Accessories",
       "price": 19.99,
       "description": "Smart tag that helps you find lost items using GPS-assisted tracking."
@@ -80,6 +93,7 @@
     {
       "id": 12,
       "name": "Smart Mug Temperature Control",
+      "image": "images/ar-smartglasses.webp",
       "category": "Lifestyle",
       "price": 129.00,
       "description": "Heated mug that maintains beverage temperature for hours."
@@ -87,6 +101,7 @@
     {
       "id": 13,
       "name": "USB-C 65W Fast Charger",
+      "image": "images/usb-charger.webp",
       "category": "Accessories",
       "price": 29.99,
       "description": "High-speed GaN charger with dual USB-C ports."
@@ -94,28 +109,28 @@
     {
       "id": 14,
       "name": "Mechanical RGB Gaming Keyboard",
-      "category": "Computer",
+      "category": "images/mechanical-rgb-keyboard.webp",
       "price": 119.99,
       "description": "Premium mechanical keyboard with hot-swappable switches and RGB lighting."
     },
     {
       "id": 15,
       "name": "Smart Digital Notepad",
-      "category": "Office",
+      "category": "images/digital-smart-notepad.webp",
       "price": 199.99,
       "description": "E-ink writing tablet with cloud sync and long battery life."
     },
     {
       "id": 16,
       "name": "Wireless Earbuds Pro",
-      "category": "Audio",
+      "category": "images/wireless-earbud.webp",
       "price": 149.99,
       "description": "True wireless earbuds with ANC and wireless charging case."
     },
     {
       "id": 17,
       "name": "Portable SSD 1TB",
-      "category": "Storage",
+      "category": "images/portable-ssd.webp",
       "price": 139.99,
       "description": "High-speed external SSD with USB-C interface and rugged design."
     },
@@ -126,5 +141,5 @@
       "price": 79.99,
       "description": "Central hub to control all smart devices with automation support."
     }
-  ]
+  ]  
 }
