@@ -29,7 +29,7 @@
     {
       "id": 4,
       "name": "Smartwatch Series X2",
-      "image": ".images/smartwatch-series-X2.webp",
+      "image": "images/smartwatch-series-X2.webp",
       "category": "Wearable",
       "price": 329.00,
       "description": "Advanced smartwatch with ECG monitor and GPS tracking."
@@ -37,7 +37,7 @@
     {
       "id": 5,
       "name": "Foldable Bluetooth Keyboard",
-      "image": "images/foldable-bluetooth-keyboard.webp",
+      "image": "images/foldable-bluetooth.webp",
       "category": "Accessories",
       "price": 49.99,
       "description": "Portable foldable keyboard ideal for tablets and mobile devices."
@@ -45,7 +45,7 @@
     {
       "id": 6,
       "name": "HD1080p Smart Home Camera",
-      "image": "images/hd1080p-smart-home-camera.webp",
+      "image": "images/hd-smarthome-camera.webp",
       "category": "Smart Home",
       "price": 89.99,
       "description": "AI-powered security camera with night vision and motion alerts."
@@ -85,7 +85,7 @@
     {
       "id": 11,
       "name": "Bluetooth Tracking Tag",
-      "image": "images/bluetooth-tracking-tag.webp",
+      "image": "images/bluetooth-tracker.webp",
       "category": "Accessories",
       "price": 19.99,
       "description": "Smart tag that helps you find lost items using GPS-assisted tracking."
@@ -93,7 +93,7 @@
     {
       "id": 12,
       "name": "Smart Mug Temperature Control",
-      "image": "images/ar-smartglasses.webp",
+      "image": "images/smart-mug-temperature.webp",
       "category": "Lifestyle",
       "price": 129.00,
       "description": "Heated mug that maintains beverage temperature for hours."
