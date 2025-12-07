@@ -1,4 +1,6 @@
 @media only screen and (min-width: 64rem) {
+
+    @media only screen and (min-width: 64rem) {
     header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
@@ -34,9 +36,13 @@
     }
 
     /*************** Home page **************/
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
     section aside {
         display: block;
-        margin-left: 10rem;
     }
     
     aside.product-img {
@@ -88,4 +94,5 @@
     .filter-bar {
         margin-left: 35.3rem;
     }
+}
 }
