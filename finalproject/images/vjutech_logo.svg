@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <circle cx="250" cy="250" r="230" fill="none" stroke="#222" stroke-width="20"/>
+  <text x="95" y="260" font-family="Arial, Sans-serif" font-size="55" fill="#222">VJUTech</text>
+  <path d="M360 110 C450 200 390 330 300 300 C350 240 330 150 360 110 Z" fill="#32B256"/>
+  <path d="M365 140 C420 220 380 300 315 285 C350 230 340 170 365 140 Z" fill="#222"/>
+  <path d="M100 305 C220 310 330 300 410 250" stroke="#32B256" stroke-width="10" fill="none"/>
+  <path d="M100 330 C220 335 330 325 405 270" stroke="#32B256" stroke-width="6" fill="none"/>
+  <path d="M100 355 C220 360 330 350 400 290" stroke="#32B256" stroke-width="4" fill="none"/>
+</svg>
