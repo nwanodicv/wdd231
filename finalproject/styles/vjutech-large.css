@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem) {
     header, main, footer {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     }
     /********* HEADER SECTION ********/
@@ -34,10 +34,6 @@
     }
 
     /*************** Home page **************/
-    section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
     section > aside {
         display: block;
@@ -56,6 +52,40 @@
 
     }
 
+    /************* HERO SECTION ****************/
+    
+    .hero-section {
+        position: relative;      /* Allows absolute positioning inside */
+        width: 100%;
+        max-height: 450px;
+        overflow: hidden;
+    }
+    .hero-section > .hero-img {
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+    
+    .hero-section .hero-btn {
+        position: absolute;
+        bottom: 20%;            /* Move up from bottom */
+        left: 50%;
+        margin-left: 85px;
+        transform: translateX(-50%);
+        opacity: 80%;
+        background: #228B22;
+        color: white;
+    }
+    
+    .hero-section .hero-signup {
+        margin: 0 15%;
+        background: #228B22;
+    }
+    
+    .hero-section .hero-text {
+        left: 50%;
+        opacity: 60%;
+    }
     /***filter bar section***/
     .filter-bar {
         margin-left: 35.3rem;

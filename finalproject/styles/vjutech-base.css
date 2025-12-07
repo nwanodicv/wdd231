@@ -127,8 +127,95 @@ body {
 
 /*************** Home page **************/
 h1 {
-    margin: 0 10px;
+    margin: 10px 10px;
     color: #222;
+}
+
+h2 {
+    color: #222;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+h3 {
+    color: #222;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+/************* HERO SECTION ****************/
+    
+    .hero-section {
+        position: relative;      /* Allows absolute positioning inside */
+        width: 100%;
+        max-height: 450px;
+        overflow: hidden;
+    }
+    .hero-section > .hero-img {
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+    
+    .hero-section .hero-btn {
+        position: absolute;
+        bottom: 20%;            /* Move up from bottom */
+        left: 60%;
+        transform: translateX(-50%);
+        opacity: 80%;
+        background: #228B22;
+        color: white;
+        margin-left: 50px;
+        padding: 0.8rem 1.6rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    }
+    
+    .hero-section .hero-signup {
+        position: absolute;
+        bottom: 20%;            /* Move up from bottom */
+        left: 27%;
+        transform: translateX(-50%);
+        opacity: 80%;
+        background: #228B22;;
+        color: white;
+        padding: 0.8rem 1.6rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    }
+    
+    .hero-section .hero-text {
+        position: absolute;
+        bottom: 20%;            /* Move up from bottom */
+        left: 45%;
+        transform: translateX(-50%);
+        opacity: 60%;
+        background-color: #fff;
+        color: #222;
+        padding: 0.8rem 1.6rem;
+        font-size: 1.6rem;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+        margin-bottom: 5rem;
+        width: 27rem;
+        text-align: center;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    
+    }
+
+.intro-btn{
+    color: #228B22;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10rem 10px;
 }
 
 main section {
@@ -146,7 +233,7 @@ li .home-page { /****Way finding ****/
 
 section > aside {
     display: block;
-    background-color: #f5f7fa;
+    background-color:#f5f7fa;;
     margin: 14px 10px;
     border: solid #eceff3;
     border-radius: 8px;
