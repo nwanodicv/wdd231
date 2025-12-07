@@ -36,7 +36,7 @@
     /*************** Home page **************/
     section aside {
         display: block;
-        margin-left: 10rem;
+        
     }
     
     aside.product-img {
@@ -87,5 +87,10 @@
     /***filter bar section***/
     .filter-bar {
         margin-left: 35.3rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
