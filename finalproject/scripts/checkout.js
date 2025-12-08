@@ -8,7 +8,7 @@ function payWithPaystack() {
         key: '1662993', // Replace with your Paystack public key
         email: 'customer@example.com',
         amount: finalTotal * 100, // kobo conversion
-        currency: 'NGN',
+        currency: '$',
         callback: function (response) {
             alert("Payment successful! Reference: " + response.reference);
             localStorage.removeItem("vjutechCart");
@@ -28,7 +28,7 @@ function showBankDetails() {
         <p>Bank: Access Bank</p>
         <p>Account Name: VJuTech Stores</p>
         <p>Account Number: 0123456789</p>
-        <p>Send proof of payment to WhatsApp: 080XXXXXXXX</p>
+        <p>Send proof of payment to WhatsApp: 08073390967</p>
     `;
 }
 
@@ -70,7 +70,7 @@ function loadCheckoutItems() {
     checkoutList.appendChild(row);
   });
 
-  checkoutTotal.textContent = "₦" + grandTotal.toLocaleString();
+  checkoutTotal.textContent = "$" + grandTotal.toLocaleString();
 }
 
 // Run on page load
