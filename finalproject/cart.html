@@ -8,15 +8,11 @@
     <meta name="author" content="Chimezie Victor Stephen"/>
     <meta name="robots" content="index, follow">
 
-    <!-- Google font (correct syntax) -->
-    <!--link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet-->
-
     <!-------------------STYLES--------------------->
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/vjutech-cart.css">
-    <link rel="stylesheet" href="styles/vjutech-base.css">
+    <link rel="stylesheet" href="styles/cart-base.css">
     <link rel="stylesheet" href="styles/vjutech-medium.css">
-    <link rel="stylesheet" href="styles/vjutech-large.css">
+    <link rel="stylesheet" href="styles/cart-large.css">
     <link rel="stylesheet" href="styles/vjutech-navigation.css">
 
     <!--------------------SCRIPTS----------------------->
@@ -25,10 +21,6 @@
     <script src="scripts/vjutech-cart.js" defer></script>
     <script src="scripts/cart.js" defer></script>
 
-    <!-- Font Awesome (icons) -->
-    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="canonical" href="https://yourdomain.com/"-->
-  
     <!--Open Graph-->
     <meta property="og:title" content="VJuTech Shopping Cart Page">
     <meta property="og:description" content=" Review your selected items in the VJuTech Shopping Cart Page. Update quantities, remove products, and proceed to checkout for a seamless purchasing experience. ">
@@ -56,24 +48,24 @@
         <!---------------NAVIGATION ------------------>
         <nav id="nav-links" class="nav-links">
         <ul>
-            li><a class="home-page" href="https://nwanodicv.github.io/wdd231/finalproject/">Home</a></li>
+            <li><a class="home-page" href="https://nwanodicv.github.io/wdd231/finalproject/">Home</a></li>
             <li><a class="about-page" href="https://nwanodicv.github.io/wdd231/finalproject/about.html">About</a></li>
             <li><a class="products-page" href="https://nwanodicv.github.io/wdd231/finalproject/products.html">Products</a></li>
         </ul>
         </nav>
     </header>
     <main>
-        <aside id="cart-container">
+        <aside class="cart-container" id="cart-container">
 
         </aside>
-        <aside id="cart-section">
+        <aside class="cart-section" id="cart-section">
 
             <h2>Your Shopping Cart</h2>
         
             <div id="cart-items"></div>
         
             <!-- PLACE BUTTON OUTSIDE cart-items -->
-            <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+            <a href="checkout.html" class="checkout-btn">Proceed to Checkout >></a>
         </aside>
     </main>
     <footer>
