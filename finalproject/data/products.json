@@ -109,34 +109,39 @@
     {
       "id": 14,
       "name": "Mechanical RGB Gaming Keyboard",
-      "category": "images/mechanical-rgb-keyboard.webp",
+      "image": "images/mechanical-rgb-keyboard.webp",
+      "category": "Gaming",
       "price": 119.99,
       "description": "Premium mechanical keyboard with hot-swappable switches and RGB lighting."
     },
     {
       "id": 15,
       "name": "Smart Digital Notepad",
-      "category": "images/digital-smart-notepad.webp",
+      "image": "images/digital-smart-notepad.webp",
+      "category": "Lifestyle",
       "price": 199.99,
       "description": "E-ink writing tablet with cloud sync and long battery life."
     },
     {
       "id": 16,
       "name": "Wireless Earbuds Pro",
-      "category": "images/wireless-earbud.webp",
+      "image": "images/wireless-earpud.webp",
+      "category": "Audio",
       "price": 149.99,
       "description": "True wireless earbuds with ANC and wireless charging case."
     },
     {
       "id": 17,
       "name": "Portable SSD 1TB",
-      "category": "images/portable-ssd.webp",
+      "image": "images/portable-ssd.webp",
+      "category": " Storage",
       "price": 139.99,
       "description": "High-speed external SSD with USB-C interface and rugged design."
     },
     {
       "id": 18,
       "name": "Smart Home WiFi Hub",
+      "image": "images/smart-home-wifihub.webp",
       "category": "Smart Home",
       "price": 79.99,
       "description": "Central hub to control all smart devices with automation support."
