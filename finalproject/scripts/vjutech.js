@@ -12,8 +12,8 @@ async function jsonFileFetch() {
     const response = await fetch('data/products.json');
     if (response.ok) {
       const data = await response.json();
-      //console.log(data); // test output
-      // ⭐ STORE PRODUCTS FOR FILTERING
+      
+      // STORE PRODUCTS FOR FILTERING
       allProducts = data.products;
       filteredProducts = allProducts;
 
