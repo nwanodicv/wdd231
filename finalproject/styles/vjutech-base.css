@@ -162,7 +162,7 @@ h3 {
         bottom: 20%;            /* Move up from bottom */
         left: 60%;
         transform: translateX(-50%);
-        opacity: 80%;
+        opacity: 100%;
         background: #228B22;
         color: white;
         margin-left: 50px;
@@ -179,7 +179,7 @@ h3 {
         bottom: 20%;            /* Move up from bottom */
         left: 27%;
         transform: translateX(-50%);
-        opacity: 80%;
+        opacity: 100%;
         background: #228B22;;
         color: white;
         padding: 0.8rem 1.6rem;

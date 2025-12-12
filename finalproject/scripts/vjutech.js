@@ -1,14 +1,22 @@
 let cart = JSON.parse(localStorage.getItem("vjutechCart")) || [];
 
+// GLOBAL VARIABLES FOR FILTERING
+let allProducts = [];  // full list from JSON
+let filteredProducts = []; // what is currently displayed
+
 updateCartCount();
 
-// ASYNC FUNCTION
+// ASYNC LOAD JSON DATA
 async function jsonFileFetch() {
   try {
     const response = await fetch('data/products.json');
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // test output
+      //console.log(data); // test output
+      // ⭐ STORE PRODUCTS FOR FILTERING
+      allProducts = data.products;
+      filteredProducts = allProducts;
+
       displayResults(data.products); // <-- FIXED
     } else {
       throw Error(await response.text());
@@ -20,7 +28,6 @@ async function jsonFileFetch() {
 
 // DISPLAY FUNCTION
 function displayResults(data) {
-  console.log("Display function received data:", data);
 
   const productsGrid = document.querySelector('#products-grid');
 
@@ -57,8 +64,7 @@ function displayResults(data) {
     productsGrid.appendChild(aside);
   });
 }
-// RUN SCRIPT
-jsonFileFetch();
+
 
 // Add to Cart Function
 function addToCart(product, quantity) {
@@ -91,3 +97,31 @@ function updateCartCount(){
 
   counter.textContent = total;
 }
+
+// FILTER FUNCTION
+function applyFilters() {
+  const searchValue = document.querySelector("#searchInput").value.toLowerCase();
+  const categoryValue = document.querySelector("#categoryFilter").value;
+
+  filteredProducts = allProducts.filter(product => {
+
+    const matchesCategory = 
+      categoryValue === "all" || product.category.toLowerCase() === categoryValue;
+
+    const matchesSearch = 
+      product.name.toLowerCase().includes(searchValue) ||
+      product.description.toLowerCase().includes(searchValue);
+
+    return matchesCategory && matchesSearch;
+  });
+  // CLEAR CURRENT DISPLAY
+  document.querySelector('#products-grid').innerHTML = "";
+  // DISPLAY FILTERED RESULTS
+  displayResults(filteredProducts);
+}
+// EVENT LISTENERS FOR FILTERS
+document.querySelector("#searchInput").addEventListener("input", applyFilters);
+document.querySelector("#categoryFilter").addEventListener("change", applyFilters);
+
+// RUN SCRIPT
+jsonFileFetch();
